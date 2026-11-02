@@ -2,7 +2,7 @@
 
 **Group Members:** Masa Milojkovic, Sara Alaidroos, Shuroq Hussein
 
-### Assignmemnt 1:
+### Assignment 1:
 
 Assignment details and answers location in file "Assignment_1.md" 
 Navigate Assignment 1 [here](Assignment-1) 
