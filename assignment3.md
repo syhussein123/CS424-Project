@@ -5,7 +5,7 @@
 **Visualization 1: Distance vs. Commute Time by Transport Mode (Scatterplot)**
 Static version: A single scatterplot of distance versus commute time, with each trip colored by transport mode. It shows the general trend (longer trips take longer) and lets viewers see every individual trip. Because many trips cluster at similar distances and times, points overlap, which makes it hard to compare modes within a specific distance range or judge how consistent each mode’s commute times are.
 
-/insert image here/
+![Static Scatterplot](figures/Assignment-3/StaticScatterViz1.png)
 
 Interactive version: The same scatterplot, with the same colors and data, plus three interactions:
 
@@ -13,9 +13,10 @@ Interactive version: The same scatterplot, with the same colors and data, plus t
 - Legend selection: Clicking a mode in the legend isolates it in both charts and fades the others, so viewers can focus on one mode at a time.
 - Details on demand: Hovering over a point shows its day, weather, location, distance, and duration, and hovering over a summary bar shows its mean, standard deviation, and trip count.
 
-/insert images here/
-
 Why we expect it to help: Our analytical question is whether some modes, such as trains, have more predictable commute times than others, such as cars. That is a question about spread at comparable distances, which is hard to read from overlapping points. Brushing lets a viewer fix the distance range and compare average and spread across modes directly, so we expect faster and more accurate answers to tasks like “Which mode has the most consistent commute time for trips of 10-20 miles?”
+
+![Screenshot of Interactive Portion](figures/Assignment-3/interactiveScreenshot.png)
+![Screenshot of Filtered Interactive Portion](figures/Assignment-3/filteringinteractivevisualizaiton.png)
 
 **Visualization 2: Average Commute Time by Day of the Week (Bar Chart)**
 Static Version: A standard bar chart showing the overall average commute time for Monday through Friday.
@@ -44,12 +45,12 @@ In the static scatterplot, dots from different modes overlap heavily within a di
 **Analytical tasks**
 There are two tasks, and each has two variants that ask the same kind of question about different distance ranges. Together they make four questions.
 
-Task 1: Compare average commute time*
+Task 1: Compare average commute time\*
 
 - Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the higher average commute time?
 - Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the higher average commute time?
 
-Task 2: Compare consistency (spread) across modes*
+Task 2: Compare consistency (spread) across modes\*
 
 - Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the more consistent commute time?
 - Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the more consistent commute time?
@@ -70,12 +71,12 @@ Task 2: Compare consistency (spread) across modes*
 **Counterbalancing**
 There are four participant groups. Each group is defined by two choices: which variant of each task goes to the static condition, and which condition is presented first.
 
-| Group | Presented first | Static condition | Interactive condition |
-|---|---|---|---|
-| 1 | Static | Task 1 Variant A, Task 2 Variant A | Task 1 Variant B, Task 2 Variant B |
-| 2 | Static | Task 1 Variant B, Task 2 Variant B | Task 1 Variant A, Task 2 Variant A |
-| 3 | Interactive | Task 1 Variant A, Task 2 Variant A | Task 1 Variant B, Task 2 Variant B |
-| 4 | Interactive | Task 1 Variant B, Task 2 Variant B | Task 1 Variant A, Task 2 Variant A |
+| Group | Presented first | Static condition                   | Interactive condition              |
+| ----- | --------------- | ---------------------------------- | ---------------------------------- |
+| 1     | Static          | Task 1 Variant A, Task 2 Variant A | Task 1 Variant B, Task 2 Variant B |
+| 2     | Static          | Task 1 Variant B, Task 2 Variant B | Task 1 Variant A, Task 2 Variant A |
+| 3     | Interactive     | Task 1 Variant A, Task 2 Variant A | Task 1 Variant B, Task 2 Variant B |
+| 4     | Interactive     | Task 1 Variant B, Task 2 Variant B | Task 1 Variant A, Task 2 Variant A |
 
 - Across the groups, each condition receives Train-answer and Car-answer Task 2 questions equally often, so the answer pattern is not confounded with condition.
 - Assign participants to groups in rotation as they arrive, aiming for an equal number per group. Target at least 12 participants (3 per group), which is above the required 10 excluding pilots.
@@ -87,7 +88,8 @@ There are four participant groups. Each group is defined by two choices: which v
 - Time limit: [to be decided after pilot]. Timed-out questions are recorded as incorrect, with the time limit as the completion time.
 - Incomplete answers (no choice selected) are recorded as incorrect.
 
-*Brush rule (interactive condition)*
+_Brush rule (interactive condition)_
+
 - Participants are told to brush across the range shown in the prompt.
 - Trips are assigned to a range using the inclusive rule: 10 ≤ distance ≤ 20 miles, or 30 ≤ distance ≤ 40 miles.
 - If a brush clearly misses an edge, the answer is scored as recorded. The expected answer is always computed with the inclusive rule.
@@ -95,22 +97,22 @@ There are four participant groups. Each group is defined by two choices: which v
 **Expected answers**
 Computed from `commutes_clean.csv` using the inclusive rule. Gap is the difference in average commute time (Task 1) or in SD (Task 2).
 
-| Task | Variant | Range | Expected answer | Gap |
-|---|---|---|---|---|
-| 1 | A | 10–20 mi | Train (higher average) | 14.71 min |
-| 1 | B | 30–40 mi | Train (higher average) | 7.86 min |
-| 2 | A | 10–20 mi | Train (more consistent) | 6.63 min SD |
-| 2 | B | 30–40 mi | Car (more consistent) | 14.61 min SD |
+| Task | Variant | Range    | Expected answer         | Gap          |
+| ---- | ------- | -------- | ----------------------- | ------------ |
+| 1    | A       | 10–20 mi | Train (higher average)  | 14.71 min    |
+| 1    | B       | 30–40 mi | Train (higher average)  | 7.86 min     |
+| 2    | A       | 10–20 mi | Train (more consistent) | 6.63 min SD  |
+| 2    | B       | 30–40 mi | Car (more consistent)   | 14.61 min SD |
 
 Supporting counts: Variant A has 23 Car and 34 Train trips. Variant B has 9 Car and 22 Train trips.
 
 **Known limitations of the design**
+
 - Task 1 has Train as the answer in both variants, so a participant who always chooses Train is correct on Task 1.
 - Variant B's Car group has 9 trips from a small number of routes, so its spread estimate is unstable.
 - The variants are not matched in difficulty: Task 1's gap is 14.71 min in A and 7.86 min in B; Task 2's SD gap is 6.63 min in A and 14.61 min in B.
 - Variant A has 17 trips exactly on the 10- or 20-mile edges. The inclusive brush rule handles this but does not remove the sensitivity.
 - Only Car and Train are compared, so results describe those two modes and not the full set of transport options.
-
 
 ### Procedure
 
