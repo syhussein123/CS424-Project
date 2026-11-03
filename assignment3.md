@@ -163,6 +163,17 @@ Give the participant 30 seconds to practice, then ask them to reset the brush be
 - The time limit and the wording of the instructions stay fixed for the whole study. Changes after the pilot are recorded in the report.
 
 ## Task 3: Conducting the evaluation (25%)
+We have created the following csv file that you can find all the information on the interview the participant partake in. 
+
+// Insert link to CSV file once we are done // 
+
+Column Attributes: 
+
+
+| Column | What | Type | Example    |
+|  ----  | ---- | ---- | ---------- |
+| particpant_id |  string | P01 |
+| group | int | 1 |
 
 ## Task 4: Quantitative analysis (25%)
 
