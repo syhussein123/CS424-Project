@@ -30,13 +30,13 @@ fig_static.update_traces(marker=dict(size=8, opacity=0.7))
 fig_static.for_each_annotation(lambda a: a.update(text=a.text.split("=")[-1]))
 fig_static.update_layout(showlegend=False)
 
-# Explicit ranges on every panel + dotted gridlines every 5 miles (no vlines)
+
 fig_static.update_xaxes(
     range=[0, df['distance_miles'].max() + 2],
     dtick=5, showgrid=True, gridcolor="lightgray", griddash="dot",
 )
 fig_static.update_yaxes(range=[0, df['duration_minutes'].max() + 10])
 
-# Static: staticPlot already disables hover, zoom, and legend clicks
+
 fig_static.write_html('static.html', config={'staticPlot': True})
 fig_static.show(config={'staticPlot': True})
