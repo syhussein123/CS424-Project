@@ -5,7 +5,7 @@
 **Visualization 1: Distance vs. Commute Time by Transport Mode (Scatterplot)**
 Static version: A single scatterplot of distance versus commute time, with each trip colored by transport mode. It shows the general trend (longer trips take longer) and lets viewers see every individual trip. Because many trips cluster at similar distances and times, points overlap, which makes it hard to compare modes within a specific distance range or judge how consistent each mode’s commute times are.
 
-![Static Scatterplot](figures/Assignment-3/StaticScatterViz1.png)
+![Static Scatterplot](figures/Assignment-3/scatterplotStatic.png)
 
 Interactive version: The same scatterplot, with the same colors and data, plus three interactions:
 
