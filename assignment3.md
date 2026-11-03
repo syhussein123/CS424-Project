@@ -163,17 +163,30 @@ Give the participant 30 seconds to practice, then ask them to reset the brush be
 - The time limit and the wording of the instructions stay fixed for the whole study. Changes after the pilot are recorded in the report.
 
 ## Task 3: Conducting the evaluation (25%)
-We have created the following csv file that you can find all the information on the interview the participant partake in. 
 
-// Insert link to CSV file once we are done // 
+We have created the following csv file that you can find all the information on the interview the participant partake in.
 
-Column Attributes: 
+// Insert link to CSV file once we are done //
 
+Data Dictionary for our CSV file:
 
-| Column | What | Type | Example    |
-|  ----  | ---- | ---- | ---------- |
-| particpant_id |  string | P01 |
-| group | int | 1 |
+| Column             | What                                                            | Variable Type | Example                    |
+| ------------------ | --------------------------------------------------------------- | ------------- | -------------------------- |
+| participant_id     | participant identifier (P01 to P12)                             | string        | P01                        |
+| group              | group number for task 2's counterbalancing (1 to 4)             | int           | 1                          |
+| is_pilot           | was this session part of the pilot?                             | string        | yes / no                   |
+| presentation_order | which condition was shown first                                 | string        | static / interactive       |
+| question_order     | order the question was asked within the session (1 to 4)        | int           | 1                          |
+| condition          | which visualization the participant was shown for this question | string        | static / interactive       |
+| task               | task number the question belongs to                             | int           | 1 or 2                     |
+| variant            | which variant the question is                                   | string        | A or B                     |
+| range              | distance range the question asks about                          | string        | 10-20 or 30-40             |
+| expected_answer    | correct answer to the question                                  | string        | Car / Train                |
+| answer_given       | answer the participant gave                                     | string        | Car / Train                |
+| correct            | was the answer correct                                          | int           | 1 = correct, 0 = incorrect |
+| time_seconds       | time spent on the question, in seconds                          | number        | 20.4                       |
+| timed_out          | did the participant exceed the time limit                       | int           | 1 = yes, 0 = no            |
+| notes              | observations from the session                                   | string        | "brushed past 20 miles"    |
 
 ## Task 4: Quantitative analysis (25%)
 
