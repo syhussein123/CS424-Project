@@ -7,7 +7,7 @@
 Assignment details and answers location in file "Assignment_1.md" 
 Navigate Assignment 1 [here](Assignment-1) 
 
-### Assignment 2
+### Assignment 2:
 
 To set up the environment and run the code, follow the steps below.
 
@@ -55,3 +55,6 @@ This will output an HTML file. To view the interactive visualization, open `task
 #### 4. Results
 
 Our final write up and results can be found [here](Assignment 2/assignment_2.md)
+
+### Assignment 3:
+Assignment details and answers location in file "sssignment3.md" 
