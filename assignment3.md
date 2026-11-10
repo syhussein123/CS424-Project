@@ -85,7 +85,7 @@ There are four participant groups. Each group is defined by two choices: which v
 
 - Accuracy: correct (1) or incorrect (0) for each question.
 - Completion time: seconds from when the question is displayed until the participant submits an answer.
-- Time limit: [to be decided after pilot]. Timed-out questions are recorded as incorrect, with the time limit as the completion time.
+- Time limit: 1 Minute. Timed-out questions are recorded as incorrect, with the time limit as the completion time.
 - Incomplete answers (no choice selected) are recorded as incorrect.
 
 _Brush rule (interactive condition)_
@@ -129,7 +129,7 @@ Supporting counts: Variant A has 23 Car and 34 Train trips. Variant B has 9 Car 
 - Look up the group in the Counterbalancing table to get the order of conditions and the variant for each question.
 
 **Participant instructions (read aloud, same wording every time)**
-"Thanks for helping with this. You'll look at a chart of commute trips in the Chicago area and answer four questions about it. Each question asks you to compare Car and Train trips in a distance range. Please answer as accurately as you can, and try to answer each question on your own. You can use any part of the chart. You have a time limit for each question. Do you have any questions before we start?"
+"Thanks for helping with this. You'll look at a chart of commute trips in the Chicago area and answer four questions about it. Each question asks you to compare Car and Train trips in a distance range. Please answer as accurately as you can, and try to answer each question on your own. You can use any part of the chart. You have a time limit of 1 minute for each question. Do you have any questions before we start?"
 
 **Interactive condition only (read before the first interactive question)**
 "In this version you can drag across the chart to select a distance range. The summary chart on the right updates to show each mode's average and spread for that range. You can also click a mode in the legend to isolate it. Try it once before answering."
@@ -164,9 +164,9 @@ Give the participant 30 seconds to practice, then ask them to reset the brush be
 
 ## Task 3: Conducting the evaluation (25%)
 
-We have created the following csv file that you can find all the information on the interview the participant partake in.
+We have created the following csv file where you can find all the data collected from this experiment.
 
-// Insert link to CSV file once we are done //
+The anonymized results are in [`data/assignment3Experiment.csv`](data/assignment3Experiment.csv).
 
 Data Dictionary for our CSV file:
 
@@ -186,7 +186,51 @@ Data Dictionary for our CSV file:
 | correct            | was the answer correct                                          | int           | 1 = correct, 0 = incorrect |
 | time_seconds       | time spent on the question, in seconds                          | number        | 20.4                       |
 | timed_out          | did the participant exceed the time limit                       | int           | 1 = yes, 0 = no            |
-| notes              | observations from the session                                   | string        | "brushed past 20 miles"    |
+
+### Pilot evaluation
+
+**Purpose**
+Before the main study, we ran a pilot with two participants (P01 and P02) to check the instructions, question wording, timing procedure, and brush interaction. Pilot rows are marked `is_pilot = yes` and are excluded from the main analysis. With two participants, the pilot is for checking the procedure, not for comparing conditions.
+
+Each pilot participant completed both conditions following the Task 2 procedure: one variant of Task 1 and one variant of Task 2 in each condition.
+
+**Results**
+
+- Task 1: 4 of 4 answers were correct. Mean time was 16.5 seconds.
+- Task 2: 1 of 4 answers was correct. Mean time was 12.3 seconds. Three of the four answers were "Train" where the expected answer was "Car" or "Car" where the expected answer was "Train."
+- Static condition: 3 of 4 correct, mean time 20.3 seconds.
+- Interactive condition: 2 of 4 correct, mean time 8.5 seconds. Both Task 2 answers in this condition were incorrect.
+
+**What we found**
+
+- Both participants were confused by the original Task 2 wording, "Which mode has the more consistent commute time?" Both asked what "consistent" meant before answering, and their answers suggested different interpretations (for example, "most common" or "closest to the average").
+- Task 2 was the question that failed in the pilot. Task 1 wording worked as written.
+- P01 answered an interactive Task 2 question in 4 seconds and got it wrong, which may indicate guessing rather than reading the summary chart. Note this in the report.
+- [add any other issues here along with their fixes below]
+
+**Change made after the pilot**
+The Task 2 question was reworded to define consistency explicitly:
+
+- Original: "Which mode has the more consistent commute time?"
+- Revised: "Which commute type had more consistent commute times, meaning the one with the smaller standard deviation?"
+
+The revised wording was used for all main-study sessions. Task 1 wording and the expected answers did not change. Lower SD means more consistent, so scoring is the same under both wordings.
+
+**Effect on the study**
+
+- Pilot Task 2 answers were given under the original wording and are excluded from the analysis.
+- The change was made before the main study began. The tasks, expected answers, and procedure were not changed after that point.
+
+**After conducting our Pilot study, we had in total 10 participants for our experiment (P03-P12)**
+
+### Visual Observations from the Main Study
+
+**Task 1 was answered correctly in every session.** All 20 Task 1 answers were correct, and the interactive condition was faster on average (14.5 seconds versus 18.4 seconds in the static condition). Averages were easy to compare in both versions.
+
+**Task 2 errors clustered in Variant B.** All four incorrect Task 2 answers were in the 30–40 mile range, where Car is the more consistent mode. In each case the participant chose Train. Variant A (10–20 miles) was answered correctly 10 of 10 times. Most participants mentioned after the study that the reason they answered train for this question, was because they assumed all the answers were going to be train.
+
+**The interactive condition did not speed up Task 2.** Task 2 averaged 15.4 seconds in the interactive condition and 13.7 seconds in the static condition. Most participants didn't utilize isolating one singular mode of transportation in order to identify the more consistent type. Which could have resulted in this spread.
+
 
 ## Task 4: Quantitative analysis (25%)
 
