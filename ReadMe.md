@@ -4,8 +4,8 @@
 
 ### Assignment 1:
 
-Assignment details and answers location in file "Assignment_1.md" 
-Navigate Assignment 1 [here](Assignment-1) 
+Assignment details and answers location in file "Assignment_1.md"
+Navigate Assignment 1 [here](Assignment-1)
 
 ### Assignment 2:
 
@@ -40,7 +40,7 @@ The cleaned output is saved to `data/processed/commutes_clean.csv`.
 python Assignment 2/datacleaning.py
 ```
 
-*(Note: When building charts, use the `location_clean` column.)*
+_(Note: When building charts, use the `location_clean` column.)_
 
 #### 3. Run the Task 5 Visualization
 
@@ -57,4 +57,7 @@ This will output an HTML file. To view the interactive visualization, open `task
 Our final write up and results can be found [here](Assignment 2/assignment_2.md)
 
 ### Assignment 3:
-Assignment details and answers location in file "sssignment3.md" 
+
+Assignment details and answers location in file "assignment3.md"
+
+the visualization used can be found in `../Assignment-3/interactive.html`. You could also generate the visualization by running `../Assignment-3/task1ScatterStaticVsInteractive.py`
