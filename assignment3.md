@@ -234,6 +234,21 @@ The revised wording was used for all main-study sessions. Task 1 wording and the
 
 ## Task 4: Quantitative analysis (25%)
 
+**Descriptive Statistics**
+Descriptive statistics for task accuracy and completion time, separately for each condition.
+
+| Condition   | Total   | Correct  | Accuracy    | Mean time (s) | Median | Min-Max | SD
+| -----       | ------- | -------- | ------------| ------------  | -------|--------|----
+| Static      | 20      | 17       | 85%         |16.05          |16.5    |6-27    | 6.3
+| Interactive | 20      | 19       | 95%         | 14.95         |15.0    |3-29    | 5.6
+
+| Presented first | Task       | Correct   | Accuracy | Mean time (s) | SD
+| --------------- | -----------|---------- | -------- |---------------|-----
+| Static          | Task 1     | 10/10     | 100%     | 18.4          | 6.1
+| Static          | Task 1     | 7/10      | 70%      | 13.7          | 5.8
+| Interactive     | Task 1     | 10/10     | 100%     | 14.5          | 4.0
+| Interactive     | Task 1     | 9/10      | 90%      | 15.4          | 7.0
+
 ## Task 5: Reflection and recommendations (10%)
 
 ## Extra Credit: Interactive Prototype using Curio
