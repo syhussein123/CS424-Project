@@ -250,10 +250,24 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 | Interactive     | Task 1     | 9/10      | 90%      | 15.4          | 7.0
 
 **Chart 1: Task accuracy: Whether participants correctly complete each task**
+
 <img width="731" height="442" alt="image" src="https://github.com/user-attachments/assets/3d0c2ce2-3b9a-44d6-b570-ce53321ecfa8" />
 
+
 **Chart 2: Task completion time: The time, in seconds, required to complete each task**
+
 <img width="713" height="444" alt="image" src="https://github.com/user-attachments/assets/572e6cb3-dd10-4572-8646-4dd99560f5cf" />
+
+**Conditions and tasks:**
+* All participants gave the correct answer expected for Task 1
+* 70% of participants for Task 2 static condition gave the correct expected answer and 90% of participants for interactive condition gave the correct answer
+* Interactive condition was faster for Task 1
+* Interactive condition was a little slower for Task 2
+
+**Participants:**
+* 5 out of 10 participants were faster with interactive visualizations
+* Participants with id P03, P04, P07 and P10 answered task 2 variant B incorrectly. For 3 of them condition was static and for 1 was Interactive
+* 4 participants saw static version first and 6 saw interactive first. This is a difference between participants since it’s not split equally
 
 
 ## Task 5: Reflection and recommendations (10%)
