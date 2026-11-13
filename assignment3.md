@@ -225,7 +225,7 @@ The revised wording was used for all main-study sessions. Task 1 wording and the
 
 ## Task 4: Quantitative analysis
 
-Task 4 analasys notebook [task4.ipynb]
+  Task 4 analysis notebook: https://github.com/syhussein123/CS424-Project/blob/main/Assignment-3/task4.ipynb
 
 **Descriptive Statistics**
 Descriptive statistics for task accuracy and completion time, separately for each condition.
