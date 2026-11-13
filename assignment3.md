@@ -282,19 +282,15 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 * Brushing may make it easier to compare how steady commute times are across transportation modes at a similar distance but it's difficult to conclude and be sure because the number of participants we had was only 10. 
 
 ## Task 5: Reflection and recommendations
-What worked as expected? 
 * Interactive accuracy was higher than static which was expected, which supports what we expected and shows us that it was more difficult to get information from some overlapping dots without brushing.
 * Changing our original question for Task 2 after getting the feedback from pilot participants worked as expected and it helped us in our further analasys.
 * There were no timed-out questions which means that our time limit was enough
-*Interactive visualization helped the participants answer faster in Task 1, which is what was expected. We can conclude that our visualization is helpful in comparing the average commute times between different groups of transportations. 
-
-What surprised you? 
+* Interactive visualization helped the participants answer faster in Task 1, which is what was expected. We can conclude that our visualization is helpful in comparing the average commute times between different groups of transportations. 
 * We were surprised that interactive visualization didn't help the participants answer faster in Task 2. This helped us conclude that the interactive visualization is not very useful for comparing the consistency (spread) across different modes.
-
-Which aspects of the visualization would you change? 
-
-Propose concrete improvements supported by the evaluation results. 
-
-limitations of your evaluation, including the number and background of participants, task difficulty, learning effects, and other factors that may have influenced the results
-
-## Extra Credit: Interactive Prototype using Curio
+* Evry error made was in Task 2 Variant B, we expected larger distribution of wrong answers throughout the different tasks and variants
+* We also noticed that most of the people on didn't spend as much time as we expected them before answering, this might have an impact on our results because someone might just guess the answer or as mentioned by some participants, they just assumed that all answers would be 'train', so no effort was actually made which is not helpful for use. We should maybe add another sentence in our initial prompt to them saying that they shouldn't make any assumptions based on the previous answers. 
+* Some aspects of the visualizations we would change 
+* We might also additionally change the Task 2 questions, because we assumed that we would be showing the visualization to CS students who know what spread means and how to read error bars. If we were to show this to larger group of people who don't have the prior knowledge, we would have to revise our question again in order to make it more clear.
+* In order to improve evaluations results we will also need to change Task 1 question and make it more difficult so that we can get the relevant information based on the participant's performance.
+* Apart from making Task 1 question more difficult, we should also use 'car' as answer in half of the questions, which will create a fair distribution of the answers and people can't just assume what the answer might be.
+* We should also change our interactive visualization in a way that will encourage people to engage with both graphs and the legend. A good idea would be not showing the right graph at all before the user interact with the legend and once, they do the right chart will show up. Currently clicking a mode in the legend isolates the specific mode chosen only in the left chart and fades the others, so viewers can focus on one mode at a time. We will have to fix our right graph to do the same because it currently only isolates the mode chosen and the rest of them disappear. Making the remaining modes fade and still be visible would we useful for the users to compare the current mode they selected to the rest of them and encourage them to engage with the right graph.
