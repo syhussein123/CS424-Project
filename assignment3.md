@@ -225,8 +225,6 @@ The revised wording was used for all main-study sessions. Task 1 wording and the
 
 ## Task 4: Quantitative analysis
 
-  Task 4 analysis notebook: https://github.com/syhussein123/CS424-Project/blob/main/Assignment-3/task4.ipynb
-
 **Descriptive Statistics**
 Descriptive statistics for task accuracy and completion time, separately for each condition.
 
@@ -272,6 +270,8 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 
 ### Evaluation Question
 * Brushing may make it easier to compare how steady commute times are across transportation modes at a similar distance but it's difficult to conclude and be sure because the number of participants we had was only 10. 
+
+  Task 4 analysis notebook: https://github.com/syhussein123/CS424-Project/blob/main/Assignment-3/task4.ipynb
 
 ## Task 5: Reflection and recommendations
 * Interactive accuracy was higher than static which was expected, which supports what we expected and shows us that it was more difficult to get information from some overlapping dots without brushing.
