@@ -10,22 +10,13 @@ Static version: A single scatterplot of distance versus commute time, with each 
 Interactive version: The same scatterplot, with the same colors and data, plus three interactions:
 
 - Brushing and linking (the main interaction): Viewers drag across a distance range on the scatterplot, and a linked chart shows the average commute time, spread (±1 standard deviation), and trip count for each mode within that range. This replaces eyeballing overlapping dots with a direct comparison of modes at similar distances.
-- Legend selection: Clicking a mode in the legend isolates it in both charts and fades the others, so viewers can focus on one mode at a time.
+- Legend selection: Clicking a mode in the legend isolates it in both charts, so viewers can focus on one mode at a time.
 - Details on demand: Hovering over a point shows its day, weather, location, distance, and duration, and hovering over a summary bar shows its mean, standard deviation, and trip count.
 
 Why we expect it to help: Our analytical question is whether some modes, such as trains, have more predictable commute times than others, such as cars. That is a question about spread at comparable distances, which is hard to read from overlapping points. Brushing lets a viewer fix the distance range and compare average and spread across modes directly, so we expect faster and more accurate answers to tasks like “Which mode has the most consistent commute time for trips of 10-20 miles?”
 
 ![Screenshot of Interactive Portion](figures/Assignment-3/interactiveScreenshot.png)
 ![Screenshot of Filtered Interactive Portion](figures/Assignment-3/filteringinteractivevisualizaiton.png)
-
-**Visualization 2: Average Commute Time by Day of the Week (Bar Chart)**
-Static Version: A standard bar chart showing the overall average commute time for Monday through Friday.
-
-/ insert visualization here /
-
-Interactive Version: added filtering via a grouped bar chart and interactive legend. Users can click on a transportation mode in the legend (e.g., "Car") to remove the other modes from the chart. This allows them to see if a bad commute day (like Monday) is driven by car traffic, or if it affects trains and buses equally.
-
-/ insert visualization here /
 
 ## Task 2: Evaluation design
 
@@ -37,7 +28,7 @@ Does brushing a distance range on the scatterplot make it easier to compare how 
 **Hypotheses**
 
 - **Accuracy Hypothesis:** Participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot.
-- **Speed Hypothesis** Participants will answer comparison questions faster with the interactive scatterplot than with the static scatterplot.
+- **Speed Hypothesis:** Participants will answer comparison questions faster with the interactive scatterplot than with the static scatterplot.
 
 **Reasoning**
 In the static scatterplot, dots from different modes overlap heavily within a distance band, so participants have to estimate average and spread by eye. In the interactive version, brushing a distance range updates a linked bar chart that shows each mode's average commute time, its spread (±1 SD), and its trip count for the selected range. The comparison can be read directly from the summary chart.
@@ -50,7 +41,7 @@ Task 1: Compare average commute time
 - Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the higher average commute time?
 - Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the higher average commute time?
 
-Task 2: Compare consistency (spread) across modes\*
+Task 2: Compare consistency (spread) across modes
 
 - Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the more consistent commute time, meaning the one with the smaller standard deviation?
 - Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the more consistent commute time, meaning the one with the smaller standard deviation?
@@ -163,7 +154,7 @@ Give the participant 30 seconds to practice, then ask them to reset the brush be
 - Save the spreadsheet after each session. Do not edit the rows once entered; correct mistakes in a separate note column.
 - The time limit and the wording of the instructions stay fixed for the whole study. Changes after the pilot are recorded in the report.
 
-## Task 3: Conducting the evaluation (25%)
+## Task 3: Conducting the evaluation
 
 We have created the following csv file where you can find all the data collected from this experiment.
 
@@ -206,14 +197,13 @@ Each pilot participant completed both conditions following the Task 2 procedure:
 
 - Both participants were confused by the original Task 2 wording, "Which mode has the more consistent commute time?" Both asked what "consistent" meant before answering, and their answers suggested different interpretations (for example, "most common" or "closest to the average").
 - Task 2 was the question that failed in the pilot. Task 1 wording worked as written.
-- P01 answered an interactive Task 2 question in 4 seconds and got it wrong, which may indicate guessing rather than reading the summary chart. Note this in the report.
-- [add any other issues here along with their fixes below]
+- P01 answered an interactive Task 2 question in 4 seconds and got it wrong, which may indicate guessing rather than reading the summary chart.
 
 **Change made after the pilot**
 The Task 2 question was reworded to define consistency explicitly:
 
 - Original: "Which mode has the more consistent commute time?"
-- Revised: "Which commute type had more consistent commute times, meaning the one with the smaller standard deviation?"
+- Revised: "Which mode had more consistent commute times, meaning the one with the smaller standard deviation?"
 
 The revised wording was used for all main-study sessions. Task 1 wording and the expected answers did not change. Lower SD means more consistent, so scoring is the same under both wordings.
 
@@ -228,7 +218,7 @@ The revised wording was used for all main-study sessions. Task 1 wording and the
 
 **Task 1 was answered correctly in every session.** All 20 Task 1 answers were correct, and the interactive condition was faster on average (14.5 seconds versus 18.4 seconds in the static condition). Averages were easy to compare in both versions.
 
-**Task 2 errors clustered in Variant B.** All four incorrect Task 2 answers were in the 30–40 mile range, where Car is the more consistent mode. In each case the participant chose Train. Variant A (10–20 miles) was answered correctly 10 of 10 times. Most participants mentioned after the study that the reason they answered train for this question, was because they assumed all the answers were going to be train.
+**Task 2 errors clustered in Variant B.** All four incorrect Task 2 answers were in the 30–40 mile range, where Car is the more consistent mode. In each case the participant chose Train. Variant A (10–20 miles) was answered correctly 10 of 10 times. Few participants mentioned after the study that the reason they answered train for this question, was because they assumed all the answers were going to be train.
 
 **The interactive condition did not speed up Task 2.** Task 2 averaged 15.4 seconds in the interactive condition and 13.7 seconds in the static condition. Most participants didn't utilize isolating one singular mode of transportation in order to identify the more consistent type. Which could have resulted in this spread.
 
@@ -240,10 +230,10 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 
 | Condition   | Total   | Correct  | Accuracy    | Mean time (s) | Median | Min-Max | SD
 | -----       | ------- | -------- | ------------| ------------  | -------|--------|----
-| Static      | 20      | 17       | 85%         |16.05          |16.5    |6-27    | 6.3
-| Interactive | 20      | 19       | 95%         | 14.95         |15.0    |3-29    | 5.6
+| Static      | 20      | 17       | 85%         | 16.0          |16.5    |6-27    | 6.3
+| Interactive | 20      | 19       | 95%         | 14.9          |15.0    |3-29    | 5.6
 
-| Presented first | Task       | Correct   | Accuracy | Mean time (s) | SD
+| Condition       | Task       | Correct   | Accuracy | Mean time (s) | SD
 | --------------- | -----------|---------- | -------- |---------------|-----
 | Static          | Task 1     | 10/10     | 100%     | 18.4          | 6.1
 | Static          | Task 2     | 7/10      | 70%      | 13.7          | 5.8
@@ -276,21 +266,20 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 * Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. The static had accuracy of 85% and interactive accuracy of 95%. When we look at the distribution for both tasks, Task 1 was answered 100% correctly for both static and interactive so we can't make any relevant comparisons, and for Task 2 9/10 people answered correctly with interactive and 7/10 answered correctly with static, which is a small difference, but it does support our hypothesis. 
 
 ### Speed Hypothesis
-* Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. On average, looking at the mean time for Static Condition (16.05) and the time for Interactive condition (15.0), considering that this difference in speed is very small we can conclude that our hypothesis fails. Additionally, looking at mean time for Tasks separately, as mentioned before, Interactive condition is only faster for Task 1.
+* Our initial accuracy hypothesis stated that participants will answer comparison questions faster with the interactive scatterplot than with the static scatterplot. On average, looking at the mean time for Static Condition (16.05) and the time for Interactive condition (14.95), considering that this difference in speed is very small we can conclude that our hypothesis fails. Additionally, looking at mean time for Tasks separately, as mentioned before, Interactive condition is only faster for Task 1.
 
 ### Evaluation Question
 * Brushing may make it easier to compare how steady commute times are across transportation modes at a similar distance but it's difficult to conclude and be sure because the number of participants we had was only 10. 
 
 ## Task 5: Reflection and recommendations
 * Interactive accuracy was higher than static which was expected, which supports what we expected and shows us that it was more difficult to get information from some overlapping dots without brushing.
-* Changing our original question for Task 2 after getting the feedback from pilot participants worked as expected and it helped us in our further analasys.
+* Changing our original question for Task 2 after getting the feedback from pilot participants worked as expected and it helped us in our further analysis.
 * There were no timed-out questions which means that our time limit was enough
 * Interactive visualization helped the participants answer faster in Task 1, which is what was expected. We can conclude that our visualization is helpful in comparing the average commute times between different groups of transportations. 
-* We were surprised that interactive visualization didn't help the participants answer faster in Task 2. This helped us conclude that the interactive visualization is not very useful for comparing the consistency (spread) across different modes.
-* Evry error made was in Task 2 Variant B, we expected larger distribution of wrong answers throughout the different tasks and variants
-* We also noticed that most of the people on didn't spend as much time as we expected them before answering, this might have an impact on our results because someone might just guess the answer or as mentioned by some participants, they just assumed that all answers would be 'train', so no effort was actually made which is not helpful for use. We should maybe add another sentence in our initial prompt to them saying that they shouldn't make any assumptions based on the previous answers. 
-* Some aspects of the visualizations we would change 
+* We were surprised that interactive visualization didn't help the participants answer faster in Task 2 (15.4 s interactive vs 13.7 s static). This helped us conclude that the interactive visualization is might not be very useful for comparing the consistency (spread) across different modes faster.
+* Every error made was in Task 2 Variant B, we expected larger distribution of wrong answers throughout the different tasks and variants
+* We also noticed that most of the people didn't spend as much time as we expected them before answering, this might have an impact on our results because someone might just guess the answer or as mentioned by some participants, they just assumed that all answers would be 'train', so no effort was actually made which is not helpful for us. We should maybe add another sentence in our initial prompt to them saying that they shouldn't make any assumptions based on the previous answers. 
 * We might also additionally change the Task 2 questions, because we assumed that we would be showing the visualization to CS students who know what spread means and how to read error bars. If we were to show this to larger group of people who don't have the prior knowledge, we would have to revise our question again in order to make it more clear.
 * In order to improve evaluations results we will also need to change Task 1 question and make it more difficult so that we can get the relevant information based on the participant's performance.
 * Apart from making Task 1 question more difficult, we should also use 'car' as answer in half of the questions, which will create a fair distribution of the answers and people can't just assume what the answer might be.
-* We should also change our interactive visualization in a way that will encourage people to engage with both graphs and the legend. A good idea would be not showing the right graph at all before the user interact with the legend and once, they do the right chart will show up. Currently clicking a mode in the legend isolates the specific mode chosen only in the left chart and fades the others, so viewers can focus on one mode at a time. We will have to fix our right graph to do the same because it currently only isolates the mode chosen and the rest of them disappear. Making the remaining modes fade and still be visible would we useful for the users to compare the current mode they selected to the rest of them and encourage them to engage with the right graph.
+* We should also change our interactive visualization in a way that will encourage people to engage with both graphs and the legend. A good idea would be not showing the right graph at all before the user interact with the legend and once they do, the right chart will show up. Currently clicking a mode in the legend isolates the specific mode chosen only in the left chart and fades the others, so viewers can focus on one mode at a time. We will have to fix our right graph to do the same because it currently only isolates the mode chosen and the rest of them disappear. Making the remaining modes fade and still be visible would be useful for the users to compare the current mode they selected to the rest of them and encourage them to engage with the right graph.
