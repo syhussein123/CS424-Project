@@ -270,19 +270,31 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 * Participants with id P03, P04, P07 and P10 answered task 2 variant B incorrectly. For 3 of them condition was static and for 1 was Interactive
 * 4 participants saw static version first and 6 saw interactive first. This is a difference between participants since it’s not split equally
 
-
-## Task 5: Reflection and recommendations
-
 **An interpretation of the results in relation to our original evaluation question and hypothesis**
 
 ### Accuracy Hypothesis
-*Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. The static had accuracy of 85% and interactive accuracy of 95%. When we look at the distribution for both tasks, Task 1 was answered 100% correctly for both static and interactive so we can't make any relevant comparisons, and for Task 2 9/10 people answered correctly with interactive and 7/10 answered correctly with static, which is a small difference, but it does support our hypothesis. 
+* Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. The static had accuracy of 85% and interactive accuracy of 95%. When we look at the distribution for both tasks, Task 1 was answered 100% correctly for both static and interactive so we can't make any relevant comparisons, and for Task 2 9/10 people answered correctly with interactive and 7/10 answered correctly with static, which is a small difference, but it does support our hypothesis. 
 
 ### Speed Hypothesis
 * Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. On average, looking at the mean time for Static Condition (16.05) and the time for Interactive condition (15.0), considering that this difference in speed is very small we can conclude that our hypothesis fails. Additionally, looking at mean time for Tasks separately, as mentioned before, Interactive condition is only faster for Task 1.
 
 ### Evaluation Question
 * Brushing may make it easier to compare how steady commute times are across transportation modes at a similar distance but it's difficult to conclude and be sure because the number of participants we had was only 10. 
-  
+
+## Task 5: Reflection and recommendations
+What worked as expected? 
+* Interactive accuracy was higher than static which was expected, which supports what we expected and shows us that it was more difficult to get information from some overlapping dots without brushing.
+* Changing our original question for Task 2 after getting the feedback from pilot participants worked as expected and it helped us in our further analasys.
+* There were no timed-out questions which means that our time limit was enough
+*Interactive visualization helped the participants answer faster in Task 1, which is what was expected. We can conclude that our visualization is helpful in comparing the average commute times between different groups of transportations. 
+
+What surprised you? 
+* We were surprised that interactive visualization didn't help the participants answer faster in Task 2. This helped us conclude that the interactive visualization is not very useful for comparing the consistency (spread) across different modes.
+
+Which aspects of the visualization would you change? 
+
+Propose concrete improvements supported by the evaluation results. 
+
+limitations of your evaluation, including the number and background of participants, task difficulty, learning effects, and other factors that may have influenced the results
 
 ## Extra Credit: Interactive Prototype using Curio
