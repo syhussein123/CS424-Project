@@ -1,6 +1,6 @@
 # Assignment 3: Interaction and Evaluation
 
-## Task 1: Implementing interaction (20%)
+## Task 1: Implementing interaction
 
 **Visualization 1: Distance vs. Commute Time by Transport Mode (Scatterplot)**
 Static version: A single scatterplot of distance versus commute time, with each trip colored by transport mode. It shows the general trend (longer trips take longer) and lets viewers see every individual trip. Because many trips cluster at similar distances and times, points overlap, which makes it hard to compare modes within a specific distance range or judge how consistent each mode’s commute times are.
@@ -27,7 +27,7 @@ Interactive Version: added filtering via a grouped bar chart and interactive leg
 
 / insert visualization here /
 
-## Task 2: Evaluation design (20%)
+## Task 2: Evaluation design
 
 ### Scatterplot: Static vs. Interactive
 
@@ -45,15 +45,16 @@ In the static scatterplot, dots from different modes overlap heavily within a di
 **Analytical tasks**
 There are two tasks, and each has two variants that ask the same kind of question about different distance ranges. Together they make four questions.
 
-Task 1: Compare average commute time\*
+Task 1: Compare average commute time
 
 - Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the higher average commute time?
 - Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the higher average commute time?
 
 Task 2: Compare consistency (spread) across modes\*
 
-- Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the more consistent commute time?
-- Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the more consistent commute time?
+- Variant A: Between Car and Train trips that are 10–20 miles long, which mode has the more consistent commute time, meaning the one with the smaller standard deviation?
+- Variant B: Between Car and Train trips that are 30–40 miles long, which mode has the more consistent commute time, meaning the one with the smaller standard deviation?
+
 
 **Why these tasks**
 
@@ -232,7 +233,7 @@ The revised wording was used for all main-study sessions. Task 1 wording and the
 **The interactive condition did not speed up Task 2.** Task 2 averaged 15.4 seconds in the interactive condition and 13.7 seconds in the static condition. Most participants didn't utilize isolating one singular mode of transportation in order to identify the more consistent type. Which could have resulted in this spread.
 
 
-## Task 4: Quantitative analysis (25%)
+## Task 4: Quantitative analysis
 
 **Descriptive Statistics**
 Descriptive statistics for task accuracy and completion time, separately for each condition.
@@ -245,9 +246,9 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 | Presented first | Task       | Correct   | Accuracy | Mean time (s) | SD
 | --------------- | -----------|---------- | -------- |---------------|-----
 | Static          | Task 1     | 10/10     | 100%     | 18.4          | 6.1
-| Static          | Task 1     | 7/10      | 70%      | 13.7          | 5.8
+| Static          | Task 2     | 7/10      | 70%      | 13.7          | 5.8
 | Interactive     | Task 1     | 10/10     | 100%     | 14.5          | 4.0
-| Interactive     | Task 1     | 9/10      | 90%      | 15.4          | 7.0
+| Interactive     | Task 2     | 9/10      | 90%      | 15.4          | 7.0
 
 **Chart 1: Task accuracy: Whether participants correctly complete each task**
 
@@ -270,6 +271,18 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 * 4 participants saw static version first and 6 saw interactive first. This is a difference between participants since it’s not split equally
 
 
-## Task 5: Reflection and recommendations (10%)
+## Task 5: Reflection and recommendations
+
+**An interpretation of the results in relation to our original evaluation question and hypothesis**
+
+### Accuracy Hypothesis
+*Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. The static had accuracy of 85% and interactive accuracy of 95%. When we look at the distribution for both tasks, Task 1 was answered 100% correctly for both static and interactive so we can't make any relevant comparisons, and for Task 2 9/10 people answered correctly with interactive and 7/10 answered correctly with static, which is a small difference, but it does support our hypothesis. 
+
+### Speed Hypothesis
+* Our initial accuracy hypothesis stated that participants will answer comparison questions more correctly with the interactive scatterplot than with the static scatterplot. On average, looking at the mean time for Static Condition (16.05) and the time for Interactive condition (15.0), considering that this difference in speed is very small we can conclude that our hypothesis fails. Additionally, looking at mean time for Tasks separately, as mentioned before, Interactive condition is only faster for Task 1.
+
+### Evaluation Question
+* Brushing may make it easier to compare how steady commute times are across transportation modes at a similar distance but it's difficult to conclude and be sure because the number of participants we had was only 10. 
+  
 
 ## Extra Credit: Interactive Prototype using Curio
