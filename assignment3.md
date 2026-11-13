@@ -249,6 +249,13 @@ Descriptive statistics for task accuracy and completion time, separately for eac
 | Interactive     | Task 1     | 10/10     | 100%     | 14.5          | 4.0
 | Interactive     | Task 1     | 9/10      | 90%      | 15.4          | 7.0
 
+**Chart 1: Task accuracy: Whether participants correctly complete each task**
+<img width="731" height="442" alt="image" src="https://github.com/user-attachments/assets/3d0c2ce2-3b9a-44d6-b570-ce53321ecfa8" />
+
+**Chart 2: Task completion time: The time, in seconds, required to complete each task**
+<img width="713" height="444" alt="image" src="https://github.com/user-attachments/assets/572e6cb3-dd10-4572-8646-4dd99560f5cf" />
+
+
 ## Task 5: Reflection and recommendations (10%)
 
 ## Extra Credit: Interactive Prototype using Curio
