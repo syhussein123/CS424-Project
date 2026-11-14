@@ -58,6 +58,6 @@ Our final write up and results can be found [here](Assignment 2/assignment_2.md)
 
 ### Assignment 3:
 
-Assignment details and answers location in file "assignment3.md"
+Assignment details and answers location in file "assignment3.md" and in the "Assignment-3" folder.
 
-the visualization used can be found in `../Assignment-3/interactive.html`. You could also generate the visualization by running `../Assignment-3/task1ScatterStaticVsInteractive.py`
+the visualization used can be found in `../Assignment-3/interactive.html`and opened with Live Server in your code editor. You could also generate the visualization by running `../Assignment-3/task1ScatterStaticVsInteractive.py`

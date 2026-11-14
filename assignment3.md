@@ -2,8 +2,8 @@
 
 ## Task 1: Implementing interaction
 
-**Visualization 1: Distance vs. Commute Time by Transport Mode (Scatterplot)**
-Static version: A single scatterplot of distance versus commute time, with each trip colored by transport mode. It shows the general trend (longer trips take longer) and lets viewers see every individual trip. Because many trips cluster at similar distances and times, points overlap, which makes it hard to compare modes within a specific distance range or judge how consistent each mode’s commute times are.
+**Selected visualization: Distance vs. Commute Time by Transport Mode (Scatterplot)**
+Static version: A single scatterplot of distance versus commute time, with each trip colored by transport mode. It shows the general trend and lets viewers see every individual trip. Because many trips cluster at similar distances and times, points overlap, which makes it hard to compare modes within a specific distance range or judge how consistent each mode’s commute times are.
 
 ![Static Scatterplot](figures/Assignment-3/scatterplotStatic.png)
 
@@ -17,6 +17,10 @@ Why we expect it to help: Our analytical question is whether some modes, such as
 
 ![Screenshot of Interactive Portion](figures/Assignment-3/interactiveScreenshot.png)
 ![Screenshot of Filtered Interactive Portion](figures/Assignment-3/filteringinteractivevisualizaiton.png)
+
+**Fairness of the comparison**
+
+Both versions use the same dataset, and the static version shows every trip for every mode with shared axes and distance markers, so every evaluation task can be answered in either version. The interaction does not unlock new information. It reduces the effort needed to estimate averages and spreads within a distance range. We measure this difference through accuracy and completion time in the user study (see Task 2).
 
 ## Task 2: Evaluation design
 
