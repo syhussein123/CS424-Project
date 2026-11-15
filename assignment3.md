@@ -7,6 +7,8 @@ Static version: A single scatterplot of distance versus commute time, with each 
 
 ![Static Scatterplot](figures/Assignment-3/scatterplotStatic.png)
 
+You can find the static scatterplot in `figures/Assignment-3/scatterplotStatic.png` or my launching `Assignment-3/static-html` in browser/
+
 Interactive version: The same scatterplot, with the same colors and data, plus three interactions:
 
 - Brushing and linking (the main interaction): Viewers drag across a distance range on the scatterplot, and a linked chart shows the average commute time, spread (±1 standard deviation), and trip count for each mode within that range. This replaces eyeballing overlapping dots with a direct comparison of modes at similar distances.
@@ -17,6 +19,8 @@ Why we expect it to help: Our analytical question is whether some modes, such as
 
 ![Screenshot of Interactive Portion](figures/Assignment-3/interactiveScreenshot.png)
 ![Screenshot of Filtered Interactive Portion](figures/Assignment-3/filteringinteractivevisualizaiton.png)
+
+You can launch the interactive scatterplot by running `Assignment-3/interactive.html` in browser.
 
 **Fairness of the comparison**
 
