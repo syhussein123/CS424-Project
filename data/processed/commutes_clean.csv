@@ -21,203 +21,227 @@ R19,2026-10-16,Friday,10:47:00,00:30:00,103,35.0,Train,Cloudy,Aurora,Aurora,Subu
 R20,2026-10-08,Thursday,07:00:00,08:50:00,110,29.0,Train,Sunny,Chicago Ridge,Chicago Ridge,Suburb,False,False,90+
 R21,2026-10-13,Tuesday,07:20:00,08:42:00,72,18.0,Train,Sunny,Rosemont,Rosemont,Suburb,False,False,60-75
 R22,2026-10-08,Thursday,08:00:00,09:00:00,60,18.0,Train,Sunny,Rosemont,Rosemont,Suburb,False,False,60-75
-R23,2026-09-14,Monday,09:30:00,10:20:00,50,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,45-60
-R24,2026-09-15,Tuesday,07:30:00,09:00:00,90,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,90+
-R25,2026-09-16,Wednesday,09:30:00,10:24:00,54,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,45-60
-R26,2026-09-17,Thursday,09:00:00,10:45:00,105,27.0,Car,Raining,Carol Stream,Carol Stream,Suburb,True,False,90+
-R27,2026-09-18,Friday,09:30:00,10:32:00,52,27.0,Car,Sunny,Carol Stream,Carol Stream,Suburb,False,False,45-60
-R28,2026-09-14,Monday,09:10:00,10:00:00,50,37.0,Train,Sunny,Algonquin,Algonquin,Suburb,False,False,45-60
-R29,2026-09-15,Tuesday,09:15:00,10:00:00,45,37.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,45-60
-R30,2026-09-16,Wednesday,09:00:00,10:00:00,55,37.0,Train,Raining,Algonquin,Algonquin,Suburb,True,False,45-60
-R31,2026-09-15,Tuesday,08:10:00,09:00:00,37,13.0,Car,Cloudy,Chicago (Dunning),Dunning,Chicago,False,False,30-45
-R32,2026-09-17,Thursday,07:30:00,09:00:00,90,13.0,Car,Raining,Chicago (Dunning),Dunning,Chicago,True,False,90+
-R33,2026-09-14,Monday,10:30:00,12:00:00,70,47.0,Train,Sunny,Other,Other,Unknown,False,False,60-75
-R34,2026-09-15,Tuesday,10:30:00,12:00:00,100,47.0,Train,Cloudy,Other,Other,Unknown,False,False,90+
-R35,2026-09-16,Wednesday,10:30:00,12:00:00,115,47.0,Train,Raining,Other,Other,Unknown,True,False,90+
-R36,2026-09-17,Thursday,10:30:00,12:00:00,120,47.0,Train,Raining,Other,Other,Unknown,True,False,90+
-R37,2026-09-14,Monday,09:30:00,10:20:00,47,23.0,Train,Sunny,Other,Other,Unknown,False,False,45-60
-R38,2026-09-15,Tuesday,09:30:00,10:00:00,60,23.0,Train,Raining,Other,Other,Unknown,True,False,60-75
-R39,2026-09-16,Wednesday,09:30:00,10:20:00,50,23.0,Train,Cloudy,Other,Other,Unknown,False,False,45-60
-R40,2026-09-17,Thursday,09:30:00,10:15:00,45,23.0,Train,Sunny,Other,Other,Unknown,False,False,45-60
-R41,2026-09-15,Tuesday,23:30:00,23:50:00,20,7.0,Bus,Sunny,Other,Other,Unknown,False,False,15-30
-R42,2026-09-17,Thursday,09:36:00,10:00:00,24,7.0,Bus,Cloudy,Other,Other,Unknown,False,False,15-30
-R43,2026-09-18,Friday,09:32:00,10:00:00,28,7.0,Bus,Sunny,Other,Other,Unknown,False,False,15-30
-R44,2026-09-14,Monday,09:46:00,10:00:00,14,1.0,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R45,2026-09-15,Tuesday,08:54:00,09:00:00,6,1.0,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R46,2026-09-16,Wednesday,09:47:00,10:00:00,13,1.0,Walk,Raining,Little Italy,UIC Area / Little Italy,Chicago,True,True,0-15
-R47,2026-09-17,Thursday,08:46:00,09:00:00,14,1.0,Walk,Raining,Little Italy,UIC Area / Little Italy,Chicago,True,True,0-15
-R48,2026-09-18,Friday,08:51:00,09:00:00,9,1.0,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R49,2026-09-14,Monday,09:06:00,10:00:00,54,16.0,Train,Cloudy,Morton Grove,Morton Grove,Suburb,False,False,45-60
-R50,2026-09-15,Tuesday,13:04:00,14:00:00,56,16.0,Train,Cloudy,Morton Grove,Morton Grove,Suburb,False,False,45-60
-R51,2026-09-16,Wednesday,09:06:00,10:00:00,54,16.0,Train,Raining,Morton Grove,Morton Grove,Suburb,True,False,45-60
-R52,2026-09-17,Thursday,13:01:00,14:00:00,59,16.0,Train,Raining,Morton Grove,Morton Grove,Suburb,True,False,45-60
-R53,2026-09-18,Friday,07:56:00,09:00:00,64,16.0,Train,Cloudy,Morton Grove,Morton Grove,Suburb,False,False,60-75
-R54,2026-09-14,Monday,08:39:00,10:00:00,81,20.0,Train,Sunny,"Westmont, IL",Westmont,Suburb,False,False,75-90
-R55,2026-09-15,Tuesday,06:55:00,08:00:00,65,20.0,Train,Raining,"Westmont, IL",Westmont,Suburb,True,False,60-75
-R56,2026-09-16,Wednesday,08:41:00,10:00:00,79,20.0,Train,Sunny,"Westmont, IL",Westmont,Suburb,False,False,75-90
-R57,2026-09-17,Thursday,06:51:00,08:00:00,69,20.0,Train,Raining,"Westmont, IL",Westmont,Suburb,True,False,60-75
-R58,2026-09-18,Friday,07:57:00,09:00:00,63,20.0,Train,Sunny,"Westmont, IL",Westmont,Suburb,False,False,60-75
-R59,2026-09-14,Monday,07:03:00,08:00:00,57,19.0,Train,Sunny,suburb,Suburb (unspecified),Suburb,False,False,45-60
-R60,2026-09-15,Tuesday,08:01:00,09:00:00,59,19.0,Train,Cloudy,suburb,Suburb (unspecified),Suburb,False,False,45-60
-R61,2026-09-16,Wednesday,07:01:00,08:00:00,59,19.0,Train,Raining,suburb,Suburb (unspecified),Suburb,True,False,45-60
-R62,2026-09-17,Thursday,08:09:00,09:00:00,51,19.0,Train,Raining,suburb,Suburb (unspecified),Suburb,True,False,45-60
-R63,2026-09-18,Friday,07:01:00,08:00:00,59,19.0,Train,Sunny,suburb,Suburb (unspecified),Suburb,False,False,45-60
-R64,2026-09-14,Monday,08:03:00,09:00:00,57,22.0,Car,Sunny,Suburb,Suburb (unspecified),Suburb,False,False,45-60
-R65,2026-09-15,Tuesday,09:21:00,10:00:00,39,22.0,Car,Cloudy,Suburb,Suburb (unspecified),Suburb,False,False,30-45
-R66,2026-09-16,Wednesday,10:32:00,11:00:00,28,22.0,Car,Raining,Suburb,Suburb (unspecified),Suburb,True,False,15-30
-R67,2026-09-17,Thursday,13:32:00,14:00:00,28,22.0,Car,Raining,Suburb,Suburb (unspecified),Suburb,True,False,15-30
-R68,2026-09-18,Friday,08:03:00,09:00:00,57,22.0,Car,Sunny,Suburb,Suburb (unspecified),Suburb,False,False,45-60
-R69,2026-09-14,Monday,07:52:00,08:00:00,8,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R70,2026-09-15,Tuesday,07:46:00,08:00:00,14,1.0,Walk,Sunny,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R71,2026-09-16,Wednesday,07:46:00,08:00:00,14,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R72,2026-09-17,Thursday,10:51:00,11:00:00,9,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R73,2026-09-18,Friday,07:52:00,08:00:00,8,1.0,Walk,Sunny,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R74,2026-09-14,Monday,07:49:00,09:00:00,71,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
-R75,2026-09-15,Tuesday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
-R76,2026-09-16,Wednesday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
-R77,2026-09-17,Thursday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
-R78,2026-09-18,Friday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
-R79,2026-09-15,Tuesday,05:29:00,07:00:00,91,38.0,Train,Cloudy,"Elgin, IL",Elgin,Suburb,False,False,90+
-R80,2026-09-17,Thursday,05:14:00,07:00:00,106,38.0,Train,Raining,"Elgin, IL",Elgin,Suburb,True,False,90+
-R81,2026-09-14,Monday,07:55:00,09:00:00,65,20.0,Train,Cloudy,Glendale Heights,Glendale Heights,Suburb,False,False,60-75
-R82,2026-09-15,Tuesday,05:51:00,07:00:00,69,20.0,Train,Raining,Glendale Heights,Glendale Heights,Suburb,True,False,60-75
-R83,2026-09-17,Thursday,05:59:00,07:00:00,61,20.0,Train,Raining,Glendale Heights,Glendale Heights,Suburb,True,False,60-75
-R84,2026-09-14,Monday,07:50:00,09:00:00,70,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
-R85,2026-09-15,Tuesday,06:46:00,08:00:00,74,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
-R86,2026-09-16,Wednesday,07:49:00,09:00:00,71,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
-R87,2026-09-17,Thursday,06:46:00,08:00:00,74,29.0,Train,Raining,Rolling Meadows,Rolling Meadows,Suburb,True,False,60-75
-R88,2026-09-18,Friday,09:47:00,11:00:00,73,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
-R89,2026-09-15,Tuesday,09:26:00,11:00:00,94,31.0,Train,Sunny,Aurora to Union Station,Aurora,Suburb,False,False,90+
-R90,2026-09-16,Wednesday,09:21:00,11:00:00,99,31.0,Train,Sunny,Aurora to Union Station,Aurora,Suburb,False,False,90+
-R91,2026-09-17,Thursday,09:24:00,11:00:00,96,31.0,Train,Sunny,Aurora to Union Station,Aurora,Suburb,False,False,90+
-R92,2026-09-15,Tuesday,06:41:00,08:00:00,79,17.0,Train,Sunny,Park Ridge,Park Ridge,Suburb,False,False,75-90
-R93,2026-09-17,Thursday,06:43:00,08:00:00,77,17.0,Train,Raining,Park Ridge,Park Ridge,Suburb,True,False,75-90
-R94,2026-09-18,Friday,06:51:00,08:00:00,69,17.0,Train,Cloudy,Park Ridge,Park Ridge,Suburb,False,False,60-75
-R95,2026-09-14,Monday,06:49:00,08:00:00,71,36.0,Car,Raining,Schaumburg,Schaumburg,Suburb,True,False,60-75
-R96,2026-09-16,Wednesday,06:47:00,08:00:00,73,36.0,Car,Raining,Schaumburg,Schaumburg,Suburb,True,False,60-75
-R97,2026-09-18,Friday,06:51:00,08:00:00,69,36.0,Car,Cloudy,Schaumburg,Schaumburg,Suburb,False,False,60-75
-R98,2026-09-15,Tuesday,06:55:00,08:00:00,65,21.0,Car,Cloudy,Chicago (city),Chicago (unspecified),Chicago,False,False,60-75
-R99,2026-09-16,Wednesday,06:54:00,08:00:00,66,21.0,Car,Raining,Chicago (city),Chicago (unspecified),Chicago,True,False,60-75
-R100,2026-09-17,Thursday,06:55:00,08:00:00,65,21.0,Train,Sunny,Chicago (city),Chicago (unspecified),Chicago,False,False,60-75
-R101,2026-09-14,Monday,07:09:00,08:00:00,51,10.0,Train,Sunny,west roger’s park,West Rogers Park,Chicago,False,False,45-60
-R102,2026-09-15,Tuesday,07:10:00,08:00:00,50,10.0,Train,Cloudy,west roger’s park,West Rogers Park,Chicago,False,False,45-60
-R103,2026-09-16,Wednesday,06:03:00,07:00:00,57,10.0,Train,Raining,west roger’s park,West Rogers Park,Chicago,True,False,45-60
-R104,2026-09-17,Thursday,05:43:00,07:00:00,77,10.0,Car,Raining,west roger’s park,West Rogers Park,Chicago,True,False,75-90
-R105,2026-09-14,Monday,07:47:00,09:00:00,73,35.0,Car,Sunny,Algonquin,Algonquin,Suburb,False,False,60-75
-R106,2026-09-15,Tuesday,09:48:00,11:00:00,72,35.0,Car,Sunny,Algonquin,Algonquin,Suburb,False,False,60-75
-R107,2026-09-16,Wednesday,07:48:00,09:00:00,72,35.0,Car,Cloudy,Algonquin,Algonquin,Suburb,False,False,60-75
-R108,2026-09-17,Thursday,09:50:00,11:00:00,70,35.0,Car,Raining,Algonquin,Algonquin,Suburb,True,False,60-75
-R109,2026-09-14,Monday,09:12:00,11:00:00,108,43.0,Train,Raining,Huntley,Huntley,Suburb,True,False,90+
-R110,2026-09-16,Wednesday,05:18:00,07:00:00,102,43.0,Train,Cloudy,Huntley,Huntley,Suburb,False,False,90+
-R111,2026-09-18,Friday,09:24:00,11:00:00,96,43.0,Train,Cloudy,Huntley,Huntley,Suburb,False,False,90+
-R112,2026-09-14,Monday,09:50:00,10:00:00,10,1.0,Bus,Sunny,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
-R113,2026-09-15,Tuesday,07:51:00,08:00:00,9,1.0,Walk,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
-R114,2026-09-16,Wednesday,09:50:00,10:00:00,10,1.0,Bus,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
-R115,2026-09-17,Thursday,07:49:00,08:00:00,11,1.0,Walk,Raining,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,True,True,0-15
-R116,2026-09-18,Friday,09:48:00,10:00:00,12,1.0,Bus,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
-R117,2026-09-14,Monday,07:46:00,08:00:00,14,0.5,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R118,2026-09-15,Tuesday,08:47:00,09:00:00,13,0.5,Walk,Sunny,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R119,2026-09-16,Wednesday,10:50:00,11:00:00,10,0.5,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
-R120,2026-09-17,Thursday,08:49:00,09:00:00,11,0.5,Walk,Raining,Little Italy,UIC Area / Little Italy,Chicago,True,True,0-15
-R121,2026-09-14,Monday,08:06:00,09:00:00,54,26.0,Train,Sunny,Plainfield,Plainfield,Suburb,False,False,45-60
-R122,2026-09-14,Monday,08:11:00,09:00:00,49,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
-R123,2026-09-15,Tuesday,07:06:00,08:00:00,54,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
-R124,2026-09-16,Wednesday,08:10:00,09:00:00,50,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
-R125,2026-09-18,Friday,08:09:00,09:00:00,51,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
-R126,2026-09-14,Monday,09:13:00,10:00:00,47,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,45-60
-R127,2026-09-15,Tuesday,09:16:00,10:00:00,44,13.0,Car,Raining,Norwood Park Township,Norwood Park Township,Suburb,True,False,30-45
-R128,2026-09-16,Wednesday,08:55:00,10:00:00,65,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,60-75
-R129,2026-09-17,Thursday,09:11:00,10:00:00,49,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,45-60
-R130,2026-09-18,Friday,06:19:00,07:00:00,41,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,30-45
-R131,2026-09-14,Monday,09:32:00,10:00:00,28,3.0,Bus,Raining,Pilsen,Pilsen,Chicago,True,True,15-30
-R132,2026-09-16,Wednesday,09:42:00,10:00:00,18,3.0,Bus,Cloudy,Pilsen,Pilsen,Chicago,False,True,15-30
-R133,2026-09-22,Tuesday,06:38:00,08:00:00,82,31.0,Train,Cloudy,Hanover park,Hanover Park,Suburb,False,False,75-90
-R134,2026-09-16,Wednesday,07:47:00,09:00:00,73,31.0,Carpool,Raining,Hanover park,Hanover Park,Suburb,True,False,60-75
-R135,2026-09-17,Thursday,06:36:00,08:00:00,84,31.0,Train,Raining,Hanover park,Hanover Park,Suburb,True,False,75-90
-R136,2026-09-18,Friday,08:44:00,10:00:00,76,31.0,Car,Cloudy,Hanover park,Hanover Park,Suburb,False,False,75-90
-R137,2026-09-21,Monday,11:02:00,12:00:00,58,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
-R138,2026-09-22,Tuesday,10:01:00,11:00:00,59,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
-R139,2026-09-16,Wednesday,11:01:00,12:00:00,59,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
-R140,2026-09-17,Thursday,10:05:00,11:00:00,55,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
-R141,2026-09-18,Friday,11:07:00,12:00:00,53,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
-R142,2026-09-21,Monday,05:59:00,07:00:00,61,0.5,Train,Raining,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,True,True,60-75
-R143,2026-09-16,Wednesday,10:42:00,11:00:00,18,0.5,Bus,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,15-30
-R144,2026-09-17,Thursday,10:42:00,11:00:00,18,0.5,Walk,Raining,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,True,True,15-30
-R145,2026-09-21,Monday,09:38:00,11:00:00,82,33.0,Train,Cloudy,Naperville,Naperville,Suburb,False,False,75-90
-R146,2026-09-22,Tuesday,09:32:00,11:00:00,88,33.0,Train,Raining,Naperville,Naperville,Suburb,True,False,75-90
-R147,2026-09-16,Wednesday,09:41:00,11:00:00,79,33.0,Train,Cloudy,Naperville,Naperville,Suburb,False,False,75-90
-R148,2026-09-17,Thursday,09:28:00,11:00:00,92,33.0,Train,Raining,Naperville,Naperville,Suburb,True,False,90+
-R149,2026-09-21,Monday,10:39:00,11:00:00,21,3.0,Bus,Cloudy,little italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R150,2026-09-14,Tuesday,08:48:00,09:00:00,12,3.0,Walk,Raining,little italy,UIC Area / Little Italy,Chicago,True,True,0-15
-R151,2026-09-16,Wednesday,10:37:00,11:00:00,23,3.0,Bus,Cloudy,little italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R152,2026-09-17,Thursday,08:50:00,09:00:00,10,3.0,Walk,Raining,little italy,UIC Area / Little Italy,Chicago,True,True,0-15
-R153,2026-09-18,Friday,10:38:00,11:00:00,22,3.0,Bus,Cloudy,little italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R154,2026-09-22,Tuesday,10:16:00,11:00:00,44,14.0,Car,Cloudy,Lincolnwood,Lincolnwood,Suburb,False,False,30-45
-R155,2026-09-17,Thursday,10:16:00,11:00:00,44,14.0,Car,Cloudy,Lincolnwood,Lincolnwood,Suburb,False,False,30-45
-R156,2026-09-21,Monday,07:14:00,08:00:00,46,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
-R157,2026-09-22,Tuesday,07:07:00,08:00:00,53,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
-R158,2026-09-16,Wednesday,07:13:00,08:00:00,47,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
-R159,2026-09-18,Friday,07:09:00,08:00:00,51,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
-R160,2026-09-21,Monday,08:06:00,09:00:00,54,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
-R161,2026-09-22,Tuesday,08:05:00,09:00:00,55,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
-R162,2026-09-23,Wednesday,08:05:00,09:00:00,55,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
-R163,2026-09-24,Thursday,08:08:00,09:00:00,52,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
-R164,2026-09-18,Friday,08:01:00,09:00:00,59,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
-R165,2026-09-21,Monday,08:48:00,09:00:00,12,2.0,Car,Cloudy,near west side,Near West Side,Chicago,False,True,0-15
-R166,2026-09-15,Tuesday,08:49:00,09:00:00,11,2.0,Car,Sunny,near west side,Near West Side,Chicago,False,True,0-15
-R167,2026-09-16,Wednesday,08:36:00,09:00:00,24,2.0,Car,Cloudy,near west side,Near West Side,Chicago,False,True,15-30
-R168,2026-09-18,Thursday,08:49:00,09:00:00,11,2.0,Bike,Raining,near west side,Near West Side,Chicago,True,True,0-15
-R169,2026-09-18,Friday,07:46:00,08:00:00,14,2.0,Car,Raining,near west side,Near West Side,Chicago,True,True,0-15
-R170,2026-09-15,Tuesday,09:49:00,10:00:00,11,2.0,Bike,Cloudy,River North,River North,Chicago,False,True,0-15
-R171,2026-09-16,Wednesday,09:50:00,10:00:00,10,2.0,Bike,Cloudy,River North,River North,Chicago,False,True,0-15
-R172,2026-09-17,Thursday,09:51:00,10:00:00,9,2.0,Bike,Raining,River North,River North,Chicago,True,True,0-15
-R173,2026-09-18,Friday,09:50:00,10:00:00,10,1.5,Bike,Raining,River North,River North,Chicago,True,True,0-15
-R174,2026-09-14,Monday,11:40:00,12:00:00,20,1.5,Walk,Cloudy,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
-R175,2026-09-15,Tuesday,11:41:00,12:00:00,19,1.5,Walk,Cloudy,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
-R176,2026-09-16,Wednesday,11:44:00,12:00:00,16,1.5,Walk,Cloudy,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
-R177,2026-09-17,Thursday,08:43:00,09:00:00,17,1.5,Walk,Raining,city - Chicago,Chicago (unspecified),Chicago,True,True,15-30
-R178,2026-09-18,Friday,11:42:00,12:00:00,18,1.5,Walk,Sunny,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
-R179,2026-09-14,Monday,05:49:00,07:00:00,71,33.0,Train,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
-R180,2026-09-15,Tuesday,08:48:00,10:00:00,72,33.0,Train,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
-R181,2026-09-16,Wednesday,05:51:00,07:00:00,69,33.0,Train,Raining,Hanover Park,Hanover Park,Suburb,True,False,60-75
-R182,2026-09-17,Thursday,08:46:00,10:00:00,74,33.0,Train,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
-R183,2026-09-18,Friday,06:50:00,08:00:00,70,33.0,Car,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
-R184,2026-09-21,Monday,08:23:00,09:00:00,37,6.0,Car,Cloudy,Cicero,Cicero,Suburb,False,False,30-45
-R185,2026-09-15,Tuesday,08:26:00,09:00:00,34,6.0,Car,Cloudy,Cicero,Cicero,Suburb,False,False,30-45
-R186,2026-09-16,Wednesday,07:28:00,08:00:00,32,6.0,Car,Raining,Cicero,Cicero,Suburb,True,False,30-45
-R187,2026-09-17,Thursday,06:27:00,07:00:00,33,6.0,Car,Raining,Cicero,Cicero,Suburb,True,False,30-45
-R188,2026-09-25,Friday,08:22:00,09:00:00,38,6.0,Car,Raining,Cicero,Cicero,Suburb,True,False,30-45
-R189,2026-09-14,Monday,08:41:00,09:00:00,19,1.0,Walk,Raining,little Italy,UIC Area / Little Italy,Chicago,True,True,15-30
-R190,2026-09-15,Tuesday,10:44:00,11:00:00,16,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R191,2026-09-16,Wednesday,09:41:00,10:00:00,19,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R192,2026-09-17,Thursday,09:37:00,10:00:00,23,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R193,2026-09-18,Friday,11:44:00,12:00:00,16,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
-R194,2026-09-21,Monday,13:48:00,14:00:00,12,0.5,Walk,Cloudy,Taylor and Carpenter,UIC Area / Little Italy,Chicago,False,True,0-15
-R195,2026-09-23,Wednesday,13:48:00,14:00:00,12,0.5,Walk,Cloudy,Taylor and Carpenter,UIC Area / Little Italy,Chicago,False,True,0-15
-R196,2026-09-24,Thursday,13:49:00,14:00:00,11,0.5,Walk,Cloudy,Taylor and Carpenter,UIC Area / Little Italy,Chicago,False,True,0-15
-R197,2026-09-21,Monday,07:24:00,08:00:00,36,15.0,Car,Cloudy,Rogers Park,Rogers Park,Chicago,False,False,30-45
-R198,2026-09-23,Wednesday,07:01:00,08:00:00,59,15.0,Car,Raining,Rogers Park,Rogers Park,Chicago,True,False,45-60
-R199,2026-09-21,Monday,07:59:00,09:00:00,61,22.0,Car,Cloudy,Lombard,Lombard,Suburb,False,False,60-75
-R200,2026-09-22,Tuesday,10:17:00,11:00:00,43,22.0,Car,Cloudy,Lombard,Lombard,Suburb,False,False,30-45
-R201,2026-09-23,Wednesday,07:58:00,09:00:00,62,22.0,Car,Raining,Lombard,Lombard,Suburb,True,False,60-75
-R202,2026-09-24,Thursday,10:24:00,11:00:00,36,22.0,Car,Sunny,Lombard,Lombard,Suburb,False,False,30-45
-R203,2026-09-21,Monday,09:42:00,10:00:00,18,2.0,Car,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
-R204,2026-09-22,Tuesday,09:44:00,10:00:00,16,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
-R205,2026-09-23,Wednesday,09:39:00,10:00:00,21,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
-R206,2026-09-24,Thursday,09:41:00,10:00:00,19,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
-R207,2026-09-21,Monday,10:31:00,12:00:00,89,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
-R208,2026-09-22,Tuesday,10:36:00,12:00:00,84,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
-R209,2026-09-23,Wednesday,10:31:00,12:00:00,89,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
-R210,2026-09-24,Thursday,10:31:00,12:00:00,89,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
-R211,2026-09-25,Friday,10:32:00,12:00:00,88,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
-R212,2026-09-21,Monday,10:01:00,11:00:00,59,25.0,Train,Sunny,Elmhurst,Elmhurst,Suburb,False,False,45-60
-R213,2026-09-22,Tuesday,10:01:00,11:00:00,59,25.0,Train,Sunny,Elmhurst,Elmhurst,Suburb,False,False,45-60
-R214,2026-09-23,Wednesday,10:08:00,11:00:00,52,25.0,Train,Cloudy,Elmhurst,Elmhurst,Suburb,False,False,45-60
-R215,2026-09-24,Thursday,10:06:00,11:00:00,54,25.0,Train,Sunny,Elmhurst,Elmhurst,Suburb,False,False,45-60
-R216,2026-09-21,Monday,06:59:00,08:00:00,61,20.0,Train,Raining,Des Plaines.,Des Plaines,Suburb,True,False,60-75
-R217,2026-09-22,Tuesday,06:55:00,08:00:00,65,20.0,Train,Cloudy,Des Plaines.,Des Plaines,Suburb,False,False,60-75
-R218,2026-09-23,Wednesday,06:59:00,08:00:00,61,20.0,Train,Cloudy,Des Plaines.,Des Plaines,Suburb,False,False,60-75
-R219,2026-09-24,Thursday,06:56:00,08:00:00,64,20.0,Train,Cloudy,Des Plaines.,Des Plaines,Suburb,False,False,60-75
-R220,2026-09-25,Friday,06:54:00,08:00:00,66,20.0,Train,Sunny,Des Plaines.,Des Plaines,Suburb,False,False,60-75
-R221,2026-09-29,Tuesday,08:21:00,09:00:00,39,12.0,Car,Cloudy,Belmont Cragin,Belmont Cragin,Chicago,False,False,30-45
-R222,2026-10-01,Thursday,08:18:00,09:00:00,42,12.0,Car,Cloudy,Belmont Cragin,Belmont Cragin,Chicago,False,False,30-45
+R23,2026-10-16,Friday,07:15:00,09:15:00,120,52.0,Train,Cloudy,Other,Other,Unknown,False,False,90+
+R24,2026-10-19,Monday,09:30:00,10:22:00,52,38.0,Car,Sunny,Other,Other,Unknown,False,False,45-60
+R25,2026-10-20,Tuesday,08:20:00,09:10:00,50,12.0,Car,Sunny,Belmont Cragin,Belmont Cragin,Chicago,False,False,45-60
+R26,2026-10-19,Monday,10:00:00,10:50:00,50,34.0,Car,Sunny,Schaumburg,Schaumburg,Suburb,False,False,45-60
+R27,2026-10-21,Friday,11:00:00,11:35:00,35,26.0,Train,Cloudy,Tinley Park,Tinley Park,Suburb,False,False,30-45
+R28,2026-10-30,Friday,10:30:00,10:58:00,28,14.0,Car,Cloudy,Norridge,Norridge,Suburb,False,False,15-30
+R29,2026-10-29,Thursday,11:00:00,11:37:00,37,14.0,Car,Sunny,Norridge,Norridge,Suburb,False,False,30-45
+R30,2026-10-26,Monday,09:00:00,09:58:00,58,14.0,Car,Sunny,Lincolnwood,Lincolnwood,Suburb,False,False,45-60
+R31,2026-10-30,Friday,06:30:00,07:50:00,80,12.0,Train,Cloudy,Oak Lawn,Oak Lawn,Suburb,False,False,75-90
+R32,2026-10-26,Monday,08:30:00,09:23:00,53,9.0,Car,Cloudy,Belmont Cragin,Belmont Cragin,Chicago,False,False,45-60
+R33,2026-10-30,Friday,07:40:00,08:30:00,50,11.0,Train,Cloudy,Belmont Cragin,Belmont Cragin,Chicago,False,False,45-60
+R34,2026-10-30,Friday,07:30:00,08:50:00,80,26.0,Train,Cloudy,Palos Hills,Palos Hills,Suburb,False,False,75-90
+R35,2026-11-02,Monday,07:00:00,07:40:00,40,7.5,Car,Cloudy,Ravenswood,Ravenswood,Chicago,False,False,30-45
+R36,2026-11-02,Monday,08:00:00,08:35:00,35,11.0,Car,Cloudy,Chicago Ridge,Chicago Ridge,Suburb,False,False,30-45
+R37,2026-11-03,Tuesday,08:30:00,09:05:00,35,13.0,Car,Sunny,Belmont Cragin,Belmont Cragin,Chicago,False,False,30-45
+R38,2026-11-02,Monday,08:00:00,09:15:00,75,35.0,Car,Cloudy,Schaumburg,Schaumburg,Suburb,False,False,75-90
+R39,2026-11-02,Monday,09:00:00,09:15:00,15,2.0,Train,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
+R40,2026-11-04,Wednesday,08:00:00,09:05:00,65,14.0,Train,Cloudy,Other,Other,Unknown,False,False,60-75
+R41,2026-11-05,Thursday,08:50:00,09:32:00,42,11.0,Car,Cloudy,Elmwood Park,Elmwood Park,Suburb,False,False,30-45
+R42,2026-11-10,Tuesday,09:52:00,10:28:00,26,13.0,Car,Sunny,Belmont Cragin,Belmont Cragin,Chicago,False,False,15-30
+R43,2026-11-09,Monday,07:10:00,08:07:00,57,16.0,Car,Cloudy,Evanston,Evanston,Suburb,False,False,45-60
+R44,2026-11-17,Tuesday,07:30:00,09:06:00,96,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,90+
+R45,2026-11-20,Friday,07:15:00,08:05:00,50,20.0,Car,Sunny,Skokie,Skokie,Suburb,False,False,45-60
+R46,2026-11-11,Wednesday,10:30:00,11:01:00,31,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,30-45
+R47,2026-09-14,Monday,09:30:00,10:20:00,50,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,45-60
+R48,2026-09-15,Tuesday,07:30:00,09:00:00,90,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,90+
+R49,2026-09-16,Wednesday,09:30:00,10:24:00,54,27.0,Car,Cloudy,Carol Stream,Carol Stream,Suburb,False,False,45-60
+R50,2026-09-17,Thursday,09:00:00,10:45:00,105,27.0,Car,Raining,Carol Stream,Carol Stream,Suburb,True,False,90+
+R51,2026-09-18,Friday,09:30:00,10:32:00,52,27.0,Car,Sunny,Carol Stream,Carol Stream,Suburb,False,False,45-60
+R52,2026-09-14,Monday,09:10:00,10:00:00,50,37.0,Train,Sunny,Algonquin,Algonquin,Suburb,False,False,45-60
+R53,2026-09-15,Tuesday,09:15:00,10:00:00,45,37.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,45-60
+R54,2026-09-16,Wednesday,09:00:00,10:00:00,55,37.0,Train,Raining,Algonquin,Algonquin,Suburb,True,False,45-60
+R55,2026-09-15,Tuesday,08:10:00,09:00:00,37,13.0,Car,Cloudy,Chicago (Dunning),Dunning,Chicago,False,False,30-45
+R56,2026-09-17,Thursday,07:30:00,09:00:00,90,13.0,Car,Raining,Chicago (Dunning),Dunning,Chicago,True,False,90+
+R57,2026-09-14,Monday,10:30:00,12:00:00,70,47.0,Train,Sunny,Other,Other,Unknown,False,False,60-75
+R58,2026-09-15,Tuesday,10:30:00,12:00:00,100,47.0,Train,Cloudy,Other,Other,Unknown,False,False,90+
+R59,2026-09-16,Wednesday,10:30:00,12:00:00,115,47.0,Train,Raining,Other,Other,Unknown,True,False,90+
+R60,2026-09-17,Thursday,10:30:00,12:00:00,120,47.0,Train,Raining,Other,Other,Unknown,True,False,90+
+R61,2026-09-14,Monday,09:30:00,10:20:00,47,23.0,Train,Sunny,Other,Other,Unknown,False,False,45-60
+R62,2026-09-15,Tuesday,09:30:00,10:00:00,60,23.0,Train,Raining,Other,Other,Unknown,True,False,60-75
+R63,2026-09-16,Wednesday,09:30:00,10:20:00,50,23.0,Train,Cloudy,Other,Other,Unknown,False,False,45-60
+R64,2026-09-17,Thursday,09:30:00,10:15:00,45,23.0,Train,Sunny,Other,Other,Unknown,False,False,45-60
+R65,2026-09-15,Tuesday,23:30:00,23:50:00,20,7.0,Bus,Sunny,Other,Other,Unknown,False,False,15-30
+R66,2026-09-17,Thursday,09:36:00,10:00:00,24,7.0,Bus,Cloudy,Other,Other,Unknown,False,False,15-30
+R67,2026-09-18,Friday,09:32:00,10:00:00,28,7.0,Bus,Sunny,Other,Other,Unknown,False,False,15-30
+R68,2026-09-14,Monday,09:46:00,10:00:00,14,1.0,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R69,2026-09-15,Tuesday,08:54:00,09:00:00,6,1.0,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R70,2026-09-16,Wednesday,09:47:00,10:00:00,13,1.0,Walk,Raining,Little Italy,UIC Area / Little Italy,Chicago,True,True,0-15
+R71,2026-09-17,Thursday,08:46:00,09:00:00,14,1.0,Walk,Raining,Little Italy,UIC Area / Little Italy,Chicago,True,True,0-15
+R72,2026-09-18,Friday,08:51:00,09:00:00,9,1.0,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R73,2026-09-14,Monday,09:06:00,10:00:00,54,16.0,Train,Cloudy,Morton Grove,Morton Grove,Suburb,False,False,45-60
+R74,2026-09-15,Tuesday,13:04:00,14:00:00,56,16.0,Train,Cloudy,Morton Grove,Morton Grove,Suburb,False,False,45-60
+R75,2026-09-16,Wednesday,09:06:00,10:00:00,54,16.0,Train,Raining,Morton Grove,Morton Grove,Suburb,True,False,45-60
+R76,2026-09-17,Thursday,13:01:00,14:00:00,59,16.0,Train,Raining,Morton Grove,Morton Grove,Suburb,True,False,45-60
+R77,2026-09-18,Friday,07:56:00,09:00:00,64,16.0,Train,Cloudy,Morton Grove,Morton Grove,Suburb,False,False,60-75
+R78,2026-09-14,Monday,08:39:00,10:00:00,81,20.0,Train,Sunny,"Westmont, IL",Westmont,Suburb,False,False,75-90
+R79,2026-09-15,Tuesday,06:55:00,08:00:00,65,20.0,Train,Raining,"Westmont, IL",Westmont,Suburb,True,False,60-75
+R80,2026-09-16,Wednesday,08:41:00,10:00:00,79,20.0,Train,Sunny,"Westmont, IL",Westmont,Suburb,False,False,75-90
+R81,2026-09-17,Thursday,06:51:00,08:00:00,69,20.0,Train,Raining,"Westmont, IL",Westmont,Suburb,True,False,60-75
+R82,2026-09-18,Friday,07:57:00,09:00:00,63,20.0,Train,Sunny,"Westmont, IL",Westmont,Suburb,False,False,60-75
+R83,2026-09-14,Monday,07:03:00,08:00:00,57,19.0,Train,Sunny,suburb,Suburb (unspecified),Suburb,False,False,45-60
+R84,2026-09-15,Tuesday,08:01:00,09:00:00,59,19.0,Train,Cloudy,suburb,Suburb (unspecified),Suburb,False,False,45-60
+R85,2026-09-16,Wednesday,07:01:00,08:00:00,59,19.0,Train,Raining,suburb,Suburb (unspecified),Suburb,True,False,45-60
+R86,2026-09-17,Thursday,08:09:00,09:00:00,51,19.0,Train,Raining,suburb,Suburb (unspecified),Suburb,True,False,45-60
+R87,2026-09-18,Friday,07:01:00,08:00:00,59,19.0,Train,Sunny,suburb,Suburb (unspecified),Suburb,False,False,45-60
+R88,2026-09-14,Monday,08:03:00,09:00:00,57,22.0,Car,Sunny,Suburb,Suburb (unspecified),Suburb,False,False,45-60
+R89,2026-09-15,Tuesday,09:21:00,10:00:00,39,22.0,Car,Cloudy,Suburb,Suburb (unspecified),Suburb,False,False,30-45
+R90,2026-09-16,Wednesday,10:32:00,11:00:00,28,22.0,Car,Raining,Suburb,Suburb (unspecified),Suburb,True,False,15-30
+R91,2026-09-17,Thursday,13:32:00,14:00:00,28,22.0,Car,Raining,Suburb,Suburb (unspecified),Suburb,True,False,15-30
+R92,2026-09-18,Friday,08:03:00,09:00:00,57,22.0,Car,Sunny,Suburb,Suburb (unspecified),Suburb,False,False,45-60
+R93,2026-09-14,Monday,07:52:00,08:00:00,8,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R94,2026-09-15,Tuesday,07:46:00,08:00:00,14,1.0,Walk,Sunny,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R95,2026-09-16,Wednesday,07:46:00,08:00:00,14,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R96,2026-09-17,Thursday,10:51:00,11:00:00,9,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R97,2026-09-18,Friday,07:52:00,08:00:00,8,1.0,Walk,Sunny,little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R98,2026-09-14,Monday,07:49:00,09:00:00,71,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
+R99,2026-09-15,Tuesday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
+R100,2026-09-16,Wednesday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
+R101,2026-09-17,Thursday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
+R102,2026-09-18,Friday,07:46:00,09:00:00,74,53.0,Train,Raining,Huntley,Huntley,Suburb,True,False,60-75
+R103,2026-09-15,Tuesday,05:29:00,07:00:00,91,38.0,Train,Cloudy,"Elgin, IL",Elgin,Suburb,False,False,90+
+R104,2026-09-17,Thursday,05:14:00,07:00:00,106,38.0,Train,Raining,"Elgin, IL",Elgin,Suburb,True,False,90+
+R105,2026-09-14,Monday,07:55:00,09:00:00,65,20.0,Train,Cloudy,Glendale Heights,Glendale Heights,Suburb,False,False,60-75
+R106,2026-09-15,Tuesday,05:51:00,07:00:00,69,20.0,Train,Raining,Glendale Heights,Glendale Heights,Suburb,True,False,60-75
+R107,2026-09-17,Thursday,05:59:00,07:00:00,61,20.0,Train,Raining,Glendale Heights,Glendale Heights,Suburb,True,False,60-75
+R108,2026-09-14,Monday,07:50:00,09:00:00,70,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
+R109,2026-09-15,Tuesday,06:46:00,08:00:00,74,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
+R110,2026-09-16,Wednesday,07:49:00,09:00:00,71,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
+R111,2026-09-17,Thursday,06:46:00,08:00:00,74,29.0,Train,Raining,Rolling Meadows,Rolling Meadows,Suburb,True,False,60-75
+R112,2026-09-18,Friday,09:47:00,11:00:00,73,29.0,Train,Cloudy,Rolling Meadows,Rolling Meadows,Suburb,False,False,60-75
+R113,2026-09-15,Tuesday,09:26:00,11:00:00,94,31.0,Train,Sunny,Aurora to Union Station,Aurora,Suburb,False,False,90+
+R114,2026-09-16,Wednesday,09:21:00,11:00:00,99,31.0,Train,Sunny,Aurora to Union Station,Aurora,Suburb,False,False,90+
+R115,2026-09-17,Thursday,09:24:00,11:00:00,96,31.0,Train,Sunny,Aurora to Union Station,Aurora,Suburb,False,False,90+
+R116,2026-09-15,Tuesday,06:41:00,08:00:00,79,17.0,Train,Sunny,Park Ridge,Park Ridge,Suburb,False,False,75-90
+R117,2026-09-17,Thursday,06:43:00,08:00:00,77,17.0,Train,Raining,Park Ridge,Park Ridge,Suburb,True,False,75-90
+R118,2026-09-18,Friday,06:51:00,08:00:00,69,17.0,Train,Cloudy,Park Ridge,Park Ridge,Suburb,False,False,60-75
+R119,2026-09-14,Monday,06:49:00,08:00:00,71,36.0,Car,Raining,Schaumburg,Schaumburg,Suburb,True,False,60-75
+R120,2026-09-16,Wednesday,06:47:00,08:00:00,73,36.0,Car,Raining,Schaumburg,Schaumburg,Suburb,True,False,60-75
+R121,2026-09-18,Friday,06:51:00,08:00:00,69,36.0,Car,Cloudy,Schaumburg,Schaumburg,Suburb,False,False,60-75
+R122,2026-09-15,Tuesday,06:55:00,08:00:00,65,21.0,Car,Cloudy,Chicago (city),Chicago (unspecified),Chicago,False,False,60-75
+R123,2026-09-16,Wednesday,06:54:00,08:00:00,66,21.0,Car,Raining,Chicago (city),Chicago (unspecified),Chicago,True,False,60-75
+R124,2026-09-17,Thursday,06:55:00,08:00:00,65,21.0,Train,Sunny,Chicago (city),Chicago (unspecified),Chicago,False,False,60-75
+R125,2026-09-14,Monday,07:09:00,08:00:00,51,10.0,Train,Sunny,west roger’s park,West Rogers Park,Chicago,False,False,45-60
+R126,2026-09-15,Tuesday,07:10:00,08:00:00,50,10.0,Train,Cloudy,west roger’s park,West Rogers Park,Chicago,False,False,45-60
+R127,2026-09-16,Wednesday,06:03:00,07:00:00,57,10.0,Train,Raining,west roger’s park,West Rogers Park,Chicago,True,False,45-60
+R128,2026-09-17,Thursday,05:43:00,07:00:00,77,10.0,Car,Raining,west roger’s park,West Rogers Park,Chicago,True,False,75-90
+R129,2026-09-14,Monday,07:47:00,09:00:00,73,35.0,Car,Sunny,Algonquin,Algonquin,Suburb,False,False,60-75
+R130,2026-09-15,Tuesday,09:48:00,11:00:00,72,35.0,Car,Sunny,Algonquin,Algonquin,Suburb,False,False,60-75
+R131,2026-09-16,Wednesday,07:48:00,09:00:00,72,35.0,Car,Cloudy,Algonquin,Algonquin,Suburb,False,False,60-75
+R132,2026-09-17,Thursday,09:50:00,11:00:00,70,35.0,Car,Raining,Algonquin,Algonquin,Suburb,True,False,60-75
+R133,2026-09-14,Monday,09:12:00,11:00:00,108,43.0,Train,Raining,Huntley,Huntley,Suburb,True,False,90+
+R134,2026-09-16,Wednesday,05:18:00,07:00:00,102,43.0,Train,Cloudy,Huntley,Huntley,Suburb,False,False,90+
+R135,2026-09-18,Friday,09:24:00,11:00:00,96,43.0,Train,Cloudy,Huntley,Huntley,Suburb,False,False,90+
+R136,2026-09-14,Monday,09:50:00,10:00:00,10,1.0,Bus,Sunny,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
+R137,2026-09-15,Tuesday,07:51:00,08:00:00,9,1.0,Walk,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
+R138,2026-09-16,Wednesday,09:50:00,10:00:00,10,1.0,Bus,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
+R139,2026-09-17,Thursday,07:49:00,08:00:00,11,1.0,Walk,Raining,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,True,True,0-15
+R140,2026-09-18,Friday,09:48:00,10:00:00,12,1.0,Bus,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,0-15
+R141,2026-09-14,Monday,07:46:00,08:00:00,14,0.5,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R142,2026-09-15,Tuesday,08:47:00,09:00:00,13,0.5,Walk,Sunny,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R143,2026-09-16,Wednesday,10:50:00,11:00:00,10,0.5,Walk,Cloudy,Little Italy,UIC Area / Little Italy,Chicago,False,True,0-15
+R144,2026-09-17,Thursday,08:49:00,09:00:00,11,0.5,Walk,Raining,Little Italy,UIC Area / Little Italy,Chicago,True,True,0-15
+R145,2026-09-14,Monday,08:06:00,09:00:00,54,26.0,Train,Sunny,Plainfield,Plainfield,Suburb,False,False,45-60
+R146,2026-09-14,Monday,08:11:00,09:00:00,49,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
+R147,2026-09-15,Tuesday,07:06:00,08:00:00,54,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
+R148,2026-09-16,Wednesday,08:10:00,09:00:00,50,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
+R149,2026-09-18,Friday,08:09:00,09:00:00,51,8.0,Car,Sunny,Montclare,Montclare,Chicago,False,False,45-60
+R150,2026-09-14,Monday,09:13:00,10:00:00,47,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,45-60
+R151,2026-09-15,Tuesday,09:16:00,10:00:00,44,13.0,Car,Raining,Norwood Park Township,Norwood Park Township,Suburb,True,False,30-45
+R152,2026-09-16,Wednesday,08:55:00,10:00:00,65,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,60-75
+R153,2026-09-17,Thursday,09:11:00,10:00:00,49,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,45-60
+R154,2026-09-18,Friday,06:19:00,07:00:00,41,13.0,Car,Sunny,Norwood Park Township,Norwood Park Township,Suburb,False,False,30-45
+R155,2026-09-14,Monday,09:32:00,10:00:00,28,3.0,Bus,Raining,Pilsen,Pilsen,Chicago,True,True,15-30
+R156,2026-09-16,Wednesday,09:42:00,10:00:00,18,3.0,Bus,Cloudy,Pilsen,Pilsen,Chicago,False,True,15-30
+R157,2026-09-22,Tuesday,06:38:00,08:00:00,82,31.0,Train,Cloudy,Hanover park,Hanover Park,Suburb,False,False,75-90
+R158,2026-09-16,Wednesday,07:47:00,09:00:00,73,31.0,Carpool,Raining,Hanover park,Hanover Park,Suburb,True,False,60-75
+R159,2026-09-17,Thursday,06:36:00,08:00:00,84,31.0,Train,Raining,Hanover park,Hanover Park,Suburb,True,False,75-90
+R160,2026-09-18,Friday,08:44:00,10:00:00,76,31.0,Car,Cloudy,Hanover park,Hanover Park,Suburb,False,False,75-90
+R161,2026-09-21,Monday,11:02:00,12:00:00,58,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
+R162,2026-09-22,Tuesday,10:01:00,11:00:00,59,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
+R163,2026-09-16,Wednesday,11:01:00,12:00:00,59,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
+R164,2026-09-17,Thursday,10:05:00,11:00:00,55,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
+R165,2026-09-18,Friday,11:07:00,12:00:00,53,24.0,Car,Raining,bloomingdale,Bloomingdale,Suburb,True,False,45-60
+R166,2026-09-21,Monday,05:59:00,07:00:00,61,0.5,Train,Raining,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,True,True,60-75
+R167,2026-09-16,Wednesday,10:42:00,11:00:00,18,0.5,Bus,Cloudy,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,False,True,15-30
+R168,2026-09-17,Thursday,10:42:00,11:00:00,18,0.5,Walk,Raining,"Little Italy, Chicago",UIC Area / Little Italy,Chicago,True,True,15-30
+R169,2026-09-21,Monday,09:38:00,11:00:00,82,33.0,Train,Cloudy,Naperville,Naperville,Suburb,False,False,75-90
+R170,2026-09-22,Tuesday,09:32:00,11:00:00,88,33.0,Train,Raining,Naperville,Naperville,Suburb,True,False,75-90
+R171,2026-09-16,Wednesday,09:41:00,11:00:00,79,33.0,Train,Cloudy,Naperville,Naperville,Suburb,False,False,75-90
+R172,2026-09-17,Thursday,09:28:00,11:00:00,92,33.0,Train,Raining,Naperville,Naperville,Suburb,True,False,90+
+R173,2026-09-21,Monday,10:39:00,11:00:00,21,3.0,Bus,Cloudy,little italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R174,2026-09-14,Tuesday,08:48:00,09:00:00,12,3.0,Walk,Raining,little italy,UIC Area / Little Italy,Chicago,True,True,0-15
+R175,2026-09-16,Wednesday,10:37:00,11:00:00,23,3.0,Bus,Cloudy,little italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R176,2026-09-17,Thursday,08:50:00,09:00:00,10,3.0,Walk,Raining,little italy,UIC Area / Little Italy,Chicago,True,True,0-15
+R177,2026-09-18,Friday,10:38:00,11:00:00,22,3.0,Bus,Cloudy,little italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R178,2026-09-22,Tuesday,10:16:00,11:00:00,44,14.0,Car,Cloudy,Lincolnwood,Lincolnwood,Suburb,False,False,30-45
+R179,2026-09-17,Thursday,10:16:00,11:00:00,44,14.0,Car,Cloudy,Lincolnwood,Lincolnwood,Suburb,False,False,30-45
+R180,2026-09-21,Monday,07:14:00,08:00:00,46,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
+R181,2026-09-22,Tuesday,07:07:00,08:00:00,53,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
+R182,2026-09-16,Wednesday,07:13:00,08:00:00,47,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
+R183,2026-09-18,Friday,07:09:00,08:00:00,51,14.0,Car,Cloudy,Brookfield,Brookfield,Suburb,False,False,45-60
+R184,2026-09-21,Monday,08:06:00,09:00:00,54,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
+R185,2026-09-22,Tuesday,08:05:00,09:00:00,55,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
+R186,2026-09-23,Wednesday,08:05:00,09:00:00,55,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
+R187,2026-09-24,Thursday,08:08:00,09:00:00,52,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
+R188,2026-09-18,Friday,08:01:00,09:00:00,59,22.0,Car,Cloudy,Downers Grove,Downers Grove,Suburb,False,False,45-60
+R189,2026-09-21,Monday,08:48:00,09:00:00,12,2.0,Car,Cloudy,near west side,Near West Side,Chicago,False,True,0-15
+R190,2026-09-15,Tuesday,08:49:00,09:00:00,11,2.0,Car,Sunny,near west side,Near West Side,Chicago,False,True,0-15
+R191,2026-09-16,Wednesday,08:36:00,09:00:00,24,2.0,Car,Cloudy,near west side,Near West Side,Chicago,False,True,15-30
+R192,2026-09-18,Thursday,08:49:00,09:00:00,11,2.0,Bike,Raining,near west side,Near West Side,Chicago,True,True,0-15
+R193,2026-09-18,Friday,07:46:00,08:00:00,14,2.0,Car,Raining,near west side,Near West Side,Chicago,True,True,0-15
+R194,2026-09-15,Tuesday,09:49:00,10:00:00,11,2.0,Bike,Cloudy,River North,River North,Chicago,False,True,0-15
+R195,2026-09-16,Wednesday,09:50:00,10:00:00,10,2.0,Bike,Cloudy,River North,River North,Chicago,False,True,0-15
+R196,2026-09-17,Thursday,09:51:00,10:00:00,9,2.0,Bike,Raining,River North,River North,Chicago,True,True,0-15
+R197,2026-09-18,Friday,09:50:00,10:00:00,10,1.5,Bike,Raining,River North,River North,Chicago,True,True,0-15
+R198,2026-09-14,Monday,11:40:00,12:00:00,20,1.5,Walk,Cloudy,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
+R199,2026-09-15,Tuesday,11:41:00,12:00:00,19,1.5,Walk,Cloudy,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
+R200,2026-09-16,Wednesday,11:44:00,12:00:00,16,1.5,Walk,Cloudy,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
+R201,2026-09-17,Thursday,08:43:00,09:00:00,17,1.5,Walk,Raining,city - Chicago,Chicago (unspecified),Chicago,True,True,15-30
+R202,2026-09-18,Friday,11:42:00,12:00:00,18,1.5,Walk,Sunny,city - Chicago,Chicago (unspecified),Chicago,False,True,15-30
+R203,2026-09-14,Monday,05:49:00,07:00:00,71,33.0,Train,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
+R204,2026-09-15,Tuesday,08:48:00,10:00:00,72,33.0,Train,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
+R205,2026-09-16,Wednesday,05:51:00,07:00:00,69,33.0,Train,Raining,Hanover Park,Hanover Park,Suburb,True,False,60-75
+R206,2026-09-17,Thursday,08:46:00,10:00:00,74,33.0,Train,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
+R207,2026-09-18,Friday,06:50:00,08:00:00,70,33.0,Car,Sunny,Hanover Park,Hanover Park,Suburb,False,False,60-75
+R208,2026-09-21,Monday,08:23:00,09:00:00,37,6.0,Car,Cloudy,Cicero,Cicero,Suburb,False,False,30-45
+R209,2026-09-15,Tuesday,08:26:00,09:00:00,34,6.0,Car,Cloudy,Cicero,Cicero,Suburb,False,False,30-45
+R210,2026-09-16,Wednesday,07:28:00,08:00:00,32,6.0,Car,Raining,Cicero,Cicero,Suburb,True,False,30-45
+R211,2026-09-17,Thursday,06:27:00,07:00:00,33,6.0,Car,Raining,Cicero,Cicero,Suburb,True,False,30-45
+R212,2026-09-25,Friday,08:22:00,09:00:00,38,6.0,Car,Raining,Cicero,Cicero,Suburb,True,False,30-45
+R213,2026-09-14,Monday,08:41:00,09:00:00,19,1.0,Walk,Raining,little Italy,UIC Area / Little Italy,Chicago,True,True,15-30
+R214,2026-09-15,Tuesday,10:44:00,11:00:00,16,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R215,2026-09-16,Wednesday,09:41:00,10:00:00,19,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R216,2026-09-17,Thursday,09:37:00,10:00:00,23,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R217,2026-09-18,Friday,11:44:00,12:00:00,16,1.0,Walk,Cloudy,little Italy,UIC Area / Little Italy,Chicago,False,True,15-30
+R218,2026-09-21,Monday,13:48:00,14:00:00,12,0.5,Walk,Cloudy,Taylor and Carpenter,UIC Area / Little Italy,Chicago,False,True,0-15
+R219,2026-09-23,Wednesday,13:48:00,14:00:00,12,0.5,Walk,Cloudy,Taylor and Carpenter,UIC Area / Little Italy,Chicago,False,True,0-15
+R220,2026-09-24,Thursday,13:49:00,14:00:00,11,0.5,Walk,Cloudy,Taylor and Carpenter,UIC Area / Little Italy,Chicago,False,True,0-15
+R221,2026-09-21,Monday,07:24:00,08:00:00,36,15.0,Car,Cloudy,Rogers Park,Rogers Park,Chicago,False,False,30-45
+R222,2026-09-23,Wednesday,07:01:00,08:00:00,59,15.0,Car,Raining,Rogers Park,Rogers Park,Chicago,True,False,45-60
+R223,2026-09-21,Monday,07:59:00,09:00:00,61,22.0,Car,Cloudy,Lombard,Lombard,Suburb,False,False,60-75
+R224,2026-09-22,Tuesday,10:17:00,11:00:00,43,22.0,Car,Cloudy,Lombard,Lombard,Suburb,False,False,30-45
+R225,2026-09-23,Wednesday,07:58:00,09:00:00,62,22.0,Car,Raining,Lombard,Lombard,Suburb,True,False,60-75
+R226,2026-09-24,Thursday,10:24:00,11:00:00,36,22.0,Car,Sunny,Lombard,Lombard,Suburb,False,False,30-45
+R227,2026-09-21,Monday,09:42:00,10:00:00,18,2.0,Car,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
+R228,2026-09-22,Tuesday,09:44:00,10:00:00,16,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
+R229,2026-09-23,Wednesday,09:39:00,10:00:00,21,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
+R230,2026-09-24,Thursday,09:41:00,10:00:00,19,2.0,Bus,Cloudy,South Loop,South Loop,Chicago,False,True,15-30
+R231,2026-09-21,Monday,10:31:00,12:00:00,89,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
+R232,2026-09-22,Tuesday,10:36:00,12:00:00,84,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
+R233,2026-09-23,Wednesday,10:31:00,12:00:00,89,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
+R234,2026-09-24,Thursday,10:31:00,12:00:00,89,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
+R235,2026-09-25,Friday,10:32:00,12:00:00,88,43.0,Train,Cloudy,Algonquin,Algonquin,Suburb,False,False,75-90
+R236,2026-09-21,Monday,10:01:00,11:00:00,59,25.0,Train,Sunny,Elmhurst,Elmhurst,Suburb,False,False,45-60
+R237,2026-09-22,Tuesday,10:01:00,11:00:00,59,25.0,Train,Sunny,Elmhurst,Elmhurst,Suburb,False,False,45-60
+R238,2026-09-23,Wednesday,10:08:00,11:00:00,52,25.0,Train,Cloudy,Elmhurst,Elmhurst,Suburb,False,False,45-60
+R239,2026-09-24,Thursday,10:06:00,11:00:00,54,25.0,Train,Sunny,Elmhurst,Elmhurst,Suburb,False,False,45-60
+R240,2026-09-21,Monday,06:59:00,08:00:00,61,20.0,Train,Raining,Des Plaines.,Des Plaines,Suburb,True,False,60-75
+R241,2026-09-22,Tuesday,06:55:00,08:00:00,65,20.0,Train,Cloudy,Des Plaines.,Des Plaines,Suburb,False,False,60-75
+R242,2026-09-23,Wednesday,06:59:00,08:00:00,61,20.0,Train,Cloudy,Des Plaines.,Des Plaines,Suburb,False,False,60-75
+R243,2026-09-24,Thursday,06:56:00,08:00:00,64,20.0,Train,Cloudy,Des Plaines.,Des Plaines,Suburb,False,False,60-75
+R244,2026-09-25,Friday,06:54:00,08:00:00,66,20.0,Train,Sunny,Des Plaines.,Des Plaines,Suburb,False,False,60-75
+R245,2026-09-29,Tuesday,08:21:00,09:00:00,39,12.0,Car,Cloudy,Belmont Cragin,Belmont Cragin,Chicago,False,False,30-45
+R246,2026-10-01,Thursday,08:18:00,09:00:00,42,12.0,Car,Cloudy,Belmont Cragin,Belmont Cragin,Chicago,False,False,30-45
