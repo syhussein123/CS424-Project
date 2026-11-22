@@ -1,0 +1,247 @@
+Timestamp,What date are you reporting for? ,What day of the week is that? ,What time did you leave your starting point? ,What time did you arrive at UIC ? ,How many minutes was your total commute? (numeric),What is the distance in miles from your starting point?,What was your primary mode of transportation today? ,What was the weather like during your commute?,What is your starting location ? 
+10/15/2026 11:25:31,10/15/2026,Thursday,7:33:00 AM,8:55:00 AM,82,27,Car (alone),Cloudy,Carol Stream
+10/15/2026 11:42:34,10/8/2026,Thursday,11:15:00 AM,1:30:00 PM,135,41,Train,Sunny,Algonquin
+10/15/2026 18:15:02,10/13/2026,Tuesday,8:30:00 AM,9:45:00 AM,75,13,Car (alone),Sunny,Belmont Cragin
+10/15/2026 18:15:49,10/15/2026,Thursday,9:30:00 AM,10:05:00 AM,35,13,Car (alone),Cloudy,Belmont Cragin
+10/15/2026 18:18:31,10/12/2026,Monday,7:00:00 AM,7:45:00 AM,45,16,Car (alone),Sunny,Franklin Park
+10/15/2026 18:19:41,10/12/2026,Monday,7:30:00 AM,8:40:00 AM,70,13,Train,Cloudy,Belmont Cragin
+10/15/2026 18:21:19,10/14/2026,Wednesday,10:00:00 AM,11:00:00 AM,60,16,Train,Raining,Franklin Park
+10/15/2026 19:54:59,10/15/2026,Thursday,6:30:00 AM,7:50:00 AM,80,13,Train,Clear,Oak Lawn
+10/15/2026 21:50:09,10/14/2026,Wednesday,8:20:00 AM,9:06:00 AM,46,27,Car (alone),Sunny,Elmhurst
+10/15/2026 23:09:17,10/15/2026,Thursday,9:05:00 AM,10:30:00 AM,85,31,Train,Cloudy,Aurora
+10/15/2026 23:53:49,10/12/2026,Monday,9:33:00 AM,10:34:00 AM,61,27,Carpool,Sunny,Hanover Park
+10/16/2026 8:26:41,10/16/2026,Friday,6:47:00 AM,8:22:00 AM,75,35,Train,Cloudy,Naperville
+10/16/2026 12:41:30,10/16/2026,Friday,10:22:00 AM,10:49:00 AM,27,13,Car (alone),Cloudy,Belmont Cragin
+10/16/2026 12:49:06,10/14/2026,Wednesday,10:45:00 AM,11:19:00 AM,34,16,Car (alone),Raining,Bridgeview
+10/16/2026 12:55:22,10/14/2026,Wednesday,7:40:00 AM,9:00:00 AM,60,30,Train,Raining,Palatine
+10/16/2026 13:20:10,10/5/2026,Monday,9:00:00 AM,9:48:00 AM,50,29,Car (alone),Sunny,Tinley Park
+10/16/2026 13:21:06,10/14/2026,Wednesday,9:00:00 AM,10:02:00 AM,62,29,Car (alone),Sunny,Tinley Park
+10/16/2026 13:22:29,10/6/2026,Tuesday,7:00:00 AM,8:45:00 AM,93,29,Train,Cloudy,Tinley Park
+10/16/2026 13:24:23,10/16/2026,Friday,10:47:00 AM,12:30:00 AM,103,35,Train,Cloudy,Aurora
+10/16/2026 13:24:52,10/8/2026,Thursday,7:00:00 AM,8:50:00 AM,110,29,Train,Sunny,Chicago Ridge
+10/16/2026 13:26:53,10/13/2026,Tuesday,7:20:00 AM,8:42:00 AM,72,18,Train,Sunny,Rosemont
+10/16/2026 13:28:15,10/8/2026,Thursday,8:00:00 AM,9:00:00 AM,60,18,Train,Sunny,Rosemont
+10/16/2026 16:10:20,10/16/2026,Friday,7:15:00 AM,9:15:00 AM,120,52,Train,Cloudy,Other
+10/19/2026 11:43:01,10/19/2026,Monday,9:30:00 AM,10:22:00 AM,52,38,Car (alone),Sunny,Other
+10/20/2026 20:56:09,10/20/2026,Tuesday,8:20:00 AM,9:10:00 AM,50,12,Car (alone),Sunny,Belmont Cragin
+10/20/2026 20:57:22,10/19/2026,Monday,10:00:00 AM,10:50:00 AM,50,34,Car (alone),Sunny,Schaumburg
+10/20/2026 20:58:27,10/21/2026,Friday,11:00:00 AM,11:35:00 AM,35,26,Train,Cloudy,Tinley Park
+10/30/2026 11:28:48,10/30/2026,Friday,10:30:00 AM,10:58:00 AM,28,14,Car (alone),Cloudy,Norridge
+10/30/2026 11:29:24,10/29/2026,Thursday,11:00:00 AM,11:37:00 AM,37,14,Car (alone),Sunny,Norridge
+10/30/2026 11:29:57,10/26/2026,Monday,9:00:00 AM,9:58:00 AM,58,14,Car (alone),Sunny,Lincolnwood
+10/30/2026 13:26:48,10/30/2026,Friday,6:30:00 AM,7:50:00 AM,80,12,Train,Cloudy,Oak Lawn
+10/30/2026 18:32:02,10/26/2026,Monday,8:30:00 AM,9:23:00 AM,53,9,Car (alone),Cloudy,Belmont Cragin
+10/30/2026 19:46:21,10/30/2026,Friday,7:40:00 AM,8:30:00 AM,50,11,Train,Cloudy,Belmont Cragin
+11/1/2026 12:27:49,10/30/2026,Friday,7:30:00 AM,8:50:00 AM,80,26,Train,Cloudy,Palos Hills
+11/2/2026 14:43:28,11/2/2026,Monday,7:00:00 AM,7:40:00 AM,40,7.5,Car (alone),Cloudy,Ravenswood
+11/2/2026 15:07:33,11/2/2026,Monday,8:00:00 AM,8:35:00 AM,35,11 miles,Car (alone),Cloudy,Chicago Ridge
+11/3/2026 10:36:41,11/3/2026,Tuesday,8:30:00 AM,9:05:00 AM,35,13,Car (alone),Sunny,Belmont Cragin
+11/3/2026 10:37:36,11/2/2026,Monday,8:00:00 AM,9:15:00 AM,75,35,Car (alone),Cloudy,Schaumburg
+11/3/2026 10:38:57,11/2/2026,Monday,9:00:00 AM,9:15:00 AM,15,2,Train,Cloudy,South Loop
+11/4/2026 14:46:33,11/4/2026,Wednesday,8:00:00 AM,9:05:00 AM,65,14,Train,Cloudy,Other
+11/5/2026 9:48:18,11/5/2026,Thursday,8:50:00 AM,9:32:00 AM,42,11,Car (alone),Cloudy,Elmwood Park
+11/10/2026 11:51:46,11/10/2026,Tuesday,9:52:00 AM,10:28:00 AM,26,13,Car (alone),Sunny,Belmont Cragin
+11/10/2026 11:52:54,11/9/2026,Monday,7:10:00 AM,8:07:00 AM,57,16,Car (alone),Cloudy,Evanston
+11/21/2026 19:14:35,11/17/2026,Tuesday,7:30:00 AM,9:06:00 AM,96,27,Car (alone),Cloudy,Carol Stream
+11/21/2026 19:15:39,11/20/2026,Friday,7:15:00 AM,8:05:00 AM,50,20,Car (alone),Sunny,Skokie
+11/21/2026 19:19:54,11/11/2026,Wednesday,10:30:00 AM,11:01:00 AM,31,2,Bus,Cloudy,South Loop
+9/17/2026 11:41:49,9/14/2026,Monday,9:30:00 AM,10:20:00 AM,50,27,Car,Cloudy,Carol Stream
+9/17/2026 11:41:49,9/15/2026,Tuesday,7:30:00 AM,9:00:00 AM,90,27,Car,Cloudy,Carol Stream
+9/17/2026 11:41:49,9/16/2026,Wednesday,9:30:00 AM,10:24:00 AM,54,27,Car,Cloudy,Carol Stream
+9/17/2026 11:41:49,9/17/2026,Thursday,9:00:00 AM,10:45:00 AM,105,27,Car,Raining,Carol Stream
+9/17/2026 11:41:49,9/18/2026,Friday,9:30:00 AM,10:32:00 AM,52,27,Car,Sunny,Carol Stream
+9/17/2026 11:42:27,9/14/2026,Monday,9:10:00 AM,10:00:00 AM,50,37,Train,Sunny,Algonquin
+9/17/2026 11:42:27,9/15/2026,Tuesday,9:15:00 AM,10:00:00 AM,45,37,Train,Cloudy,Algonquin
+9/17/2026 11:42:27,9/16/2026,Wednesday,9:00:00 AM,10:00:00 AM,55,37,Train,Raining,Algonquin
+9/17/2026 12:28:40,9/15/2026,Tuesday,8:10:00 AM,9:00:00 AM,37,13,Car,Cloudy,Chicago (Dunning)
+9/17/2026 12:28:40,9/17/2026,Thursday,7:30:00 AM,9:00:00 AM,90,13,Car,Raining,Chicago (Dunning)
+9/17/2026 12:43:40,9/14/2026,Monday,10:30:00 AM,12:00:00 PM,70,47,Train,Sunny,Other
+9/17/2026 12:43:40,9/15/2026,Tuesday,10:30:00 AM,12:00:00 PM,100,47,Train,Cloudy,Other
+9/17/2026 12:43:40,9/16/2026,Wednesday,10:30:00 AM,12:00:00 PM,115,47,Train,Raining,Other
+9/17/2026 12:43:40,9/17/2026,Thursday,10:30:00 AM,12:00:00 PM,120,47,Train,Raining,Other
+9/17/2026 12:44:09,9/14/2026,Monday,9:30:00 AM,10:20:00 AM,47,23,Train,Sunny,Other
+9/17/2026 12:44:09,9/15/2026,Tuesday,9:30:00 AM,10:00:00 AM,60,23,Train,Raining,Other
+9/17/2026 12:44:09,9/16/2026,Wednesday,9:30:00 AM,10:20:00 AM,50,23,Train,Cloudy,Other
+9/17/2026 12:44:09,9/17/2026,Thursday,9:30:00 AM,10:15:00 AM,45,23,Train,Sunny,Other
+9/17/2026 17:53:09,9/15/2026,Tuesday,11:30:00 PM,11:50:00 PM,20,7,Bus,Sunny,Other
+9/17/2026 17:53:09,9/17/2026,Thursday,9:36:00 AM,10:00:00 AM,24,7,Bus,Cloudy,Other
+9/17/2026 17:53:09,9/18/2026,Friday,9:32:00 AM,10:00:00 AM,28,7,Bus,Sunny,Other
+9/18/2026 10:27:42,9/14/2026,Monday,9:46:00 AM,10:00:00 AM,14,1,Walk,Cloudy,Little Italy
+9/18/2026 10:27:42,9/15/2026,Tuesday,8:54:00 AM,9:00:00 AM,6,1,Walk,Cloudy,Little Italy
+9/18/2026 10:27:42,9/16/2026,Wednesday,9:47:00 AM,10:00:00 AM,13,1,Walk,Raining,Little Italy
+9/18/2026 10:27:42,9/17/2026,Thursday,8:46:00 AM,9:00:00 AM,14,1,Walk,Raining,Little Italy
+9/18/2026 10:27:42,9/18/2026,Friday,8:51:00 AM,9:00:00 AM,9,1,Walk,Cloudy,Little Italy
+9/18/2026 10:54:39,9/14/2026,Monday,9:06:00 AM,10:00:00 AM,54,16,Train,Cloudy,Morton Grove
+9/18/2026 10:54:39,9/15/2026,Tuesday,1:04:00 PM,2:00:00 PM,56,16,Train,Cloudy,Morton Grove
+9/18/2026 10:54:39,9/16/2026,Wednesday,9:06:00 AM,10:00:00 AM,54,16,Train,Raining,Morton Grove
+9/18/2026 10:54:39,9/17/2026,Thursday,1:01:00 PM,2:00:00 PM,59,16,Train,Raining,Morton Grove
+9/18/2026 10:54:39,9/18/2026,Friday,7:56:00 AM,9:00:00 AM,64,16,Train,Cloudy,Morton Grove
+9/18/2026 11:06:02,9/14/2026,Monday,8:39:00 AM,10:00:00 AM,81,20,Train,Sunny,"Westmont, IL"
+9/18/2026 11:06:02,9/15/2026,Tuesday,6:55:00 AM,8:00:00 AM,65,20,Train,Raining,"Westmont, IL"
+9/18/2026 11:06:02,9/16/2026,Wednesday,8:41:00 AM,10:00:00 AM,79,20,Train,Sunny,"Westmont, IL"
+9/18/2026 11:06:02,9/17/2026,Thursday,6:51:00 AM,8:00:00 AM,69,20,Train,Raining,"Westmont, IL"
+9/18/2026 11:06:02,9/18/2026,Friday,7:57:00 AM,9:00:00 AM,63,20,Train,Sunny,"Westmont, IL"
+9/18/2026 11:07:18,9/14/2026,Monday,7:03:00 AM,8:00:00 AM,57,19,Train,Sunny,suburb
+9/18/2026 11:07:18,9/15/2026,Tuesday,8:01:00 AM,9:00:00 AM,59,19,Train,Cloudy,suburb
+9/18/2026 11:07:18,9/16/2026,Wednesday,7:01:00 AM,8:00:00 AM,59,19,Train,Raining,suburb
+9/18/2026 11:07:18,9/17/2026,Thursday,8:09:00 AM,9:00:00 AM,51,19,Train,Raining,suburb
+9/18/2026 11:07:18,9/18/2026,Friday,7:01:00 AM,8:00:00 AM,59,19,Train,Sunny,suburb
+9/18/2026 11:07:59,9/14/2026,Monday,8:03:00 AM,9:00:00 AM,57,22,Car,Sunny,Suburb
+9/18/2026 11:07:59,9/15/2026,Tuesday,9:21:00 AM,10:00:00 AM,39,22,Car,Cloudy,Suburb
+9/18/2026 11:07:59,9/16/2026,Wednesday,10:32:00 AM,11:00:00 AM,28,22,Car,Raining,Suburb
+9/18/2026 11:07:59,9/17/2026,Thursday,1:32:00 PM,2:00:00 PM,28,22,Car,Raining,Suburb
+9/18/2026 11:07:59,9/18/2026,Friday,8:03:00 AM,9:00:00 AM,57,22,Car,Sunny,Suburb
+9/18/2026 11:08:37,9/14/2026,Monday,7:52:00 AM,8:00:00 AM,8,1,Walk,Cloudy,little Italy
+9/18/2026 11:08:37,9/15/2026,Tuesday,7:46:00 AM,8:00:00 AM,14,1,Walk,Sunny,little Italy
+9/18/2026 11:08:37,9/16/2026,Wednesday,7:46:00 AM,8:00:00 AM,14,1,Walk,Cloudy,little Italy
+9/18/2026 11:08:37,9/17/2026,Thursday,10:51:00 AM,11:00:00 AM,9,1,Walk,Cloudy,little Italy
+9/18/2026 11:08:37,9/18/2026,Friday,7:52:00 AM,8:00:00 AM,8,1,Walk,Sunny,little Italy
+9/18/2026 11:17:37,9/14/2026,Monday,7:49:00 AM,9:00:00 AM,71,53,Train,Raining,Huntley
+9/18/2026 11:17:37,9/15/2026,Tuesday,7:46:00 AM,9:00:00 AM,74,53,Train,Raining,Huntley
+9/18/2026 11:17:37,9/16/2026,Wednesday,7:46:00 AM,9:00:00 AM,74,53,Train,Raining,Huntley
+9/18/2026 11:17:37,9/17/2026,Thursday,7:46:00 AM,9:00:00 AM,74,53,Train,Raining,Huntley
+9/18/2026 11:17:37,9/18/2026,Friday,7:46:00 AM,9:00:00 AM,74,53,Train,Raining,Huntley
+9/18/2026 11:27:43,9/15/2026,Tuesday,5:29:00 AM,7:00:00 AM,91,38,Train,Cloudy,"Elgin, IL"
+9/18/2026 11:27:43,9/17/2026,Thursday,5:14:00 AM,7:00:00 AM,106,38,Train,Raining,"Elgin, IL"
+9/18/2026 11:29:38,9/14/2026,Monday,7:55:00 AM,9:00:00 AM,65,20,Train,Cloudy,Glendale Heights
+9/18/2026 11:29:38,9/15/2026,Tuesday,5:51:00 AM,7:00:00 AM,69,20,Train,Raining,Glendale Heights
+9/18/2026 11:29:38,9/17/2026,Thursday,5:59:00 AM,7:00:00 AM,61,20,Train,Raining,Glendale Heights
+9/18/2026 11:35:18,9/14/2026,Monday,7:50:00 AM,9:00:00 AM,70,29,Train,Cloudy,Rolling Meadows
+9/18/2026 11:35:18,9/15/2026,Tuesday,6:46:00 AM,8:00:00 AM,74,29,Train,Cloudy,Rolling Meadows
+9/18/2026 11:35:18,9/16/2026,Wednesday,7:49:00 AM,9:00:00 AM,71,29,Train,Cloudy,Rolling Meadows
+9/18/2026 11:35:18,9/17/2026,Thursday,6:46:00 AM,8:00:00 AM,74,29,Train,Raining,Rolling Meadows
+9/18/2026 11:35:18,9/18/2026,Friday,9:47:00 AM,11:00:00 AM,73,29,Train,Cloudy,Rolling Meadows
+9/18/2026 11:54:30,9/15/2026,Tuesday,9:26:00 AM,11:00:00 AM,94,31,Train,Sunny,Aurora to Union Station
+9/18/2026 11:54:30,9/16/2026,Wednesday,9:21:00 AM,11:00:00 AM,99,31,Train,Sunny,Aurora to Union Station
+9/18/2026 11:54:30,9/17/2026,Thursday,9:24:00 AM,11:00:00 AM,96,31,Train,Sunny,Aurora to Union Station
+9/18/2026 12:27:23,9/15/2026,Tuesday,6:41:00 AM,8:00:00 AM,79,17,Train,Sunny,Park Ridge
+9/18/2026 12:27:23,9/17/2026,Thursday,6:43:00 AM,8:00:00 AM,77,17,Train,Raining,Park Ridge
+9/18/2026 12:27:23,9/18/2026,Friday,6:51:00 AM,8:00:00 AM,69,17,Train,Cloudy,Park Ridge
+9/18/2026 13:36:42,9/14/2026,Monday,6:49:00 AM,8:00:00 AM,71,36,Car,Raining,Schaumburg
+9/18/2026 13:36:42,9/16/2026,Wednesday,6:47:00 AM,8:00:00 AM,73,36,Car,Raining,Schaumburg
+9/18/2026 13:36:42,9/18/2026,Friday,6:51:00 AM,8:00:00 AM,69,36,Car,Cloudy,Schaumburg
+9/18/2026 15:16:23,9/15/2026,Tuesday,6:55:00 AM,8:00:00 AM,65,21,Car,Cloudy,Chicago (city)
+9/18/2026 15:16:23,9/16/2026,Wednesday,6:54:00 AM,8:00:00 AM,66,21,Car,Raining,Chicago (city)
+9/18/2026 15:16:23,9/17/2026,Thursday,6:55:00 AM,8:00:00 AM,65,21,Train,Sunny,Chicago (city)
+9/18/2026 15:19:15,9/14/2026,Monday,7:09:00 AM,8:00:00 AM,51,10,Train,Sunny,west roger’s park
+9/18/2026 15:19:15,9/15/2026,Tuesday,7:10:00 AM,8:00:00 AM,50,10,Train,Cloudy,west roger’s park
+9/18/2026 15:19:15,9/16/2026,Wednesday,6:03:00 AM,7:00:00 AM,57,10,Train,Raining,west roger’s park
+9/18/2026 15:19:15,9/17/2026,Thursday,5:43:00 AM,7:00:00 AM,77,10,Car,Raining,west roger’s park
+9/18/2026 21:29:59,9/14/2026,Monday,7:47:00 AM,9:00:00 AM,73,35,Car,Sunny,Algonquin
+9/18/2026 21:29:59,9/15/2026,Tuesday,9:48:00 AM,11:00:00 AM,72,35,Car,Sunny,Algonquin
+9/18/2026 21:29:59,9/16/2026,Wednesday,7:48:00 AM,9:00:00 AM,72,35,Car,Cloudy,Algonquin
+9/18/2026 21:29:59,9/17/2026,Thursday,9:50:00 AM,11:00:00 AM,70,35,Car,Raining,Algonquin
+9/19/2026 10:53:42,9/14/2026,Monday,9:12:00 AM,11:00:00 AM,108,43,Train,Raining,Huntley
+9/19/2026 10:53:42,9/16/2026,Wednesday,5:18:00 AM,7:00:00 AM,102,43,Train,Cloudy,Huntley
+9/19/2026 10:53:42,9/18/2026,Friday,9:24:00 AM,11:00:00 AM,96,43,Train,Cloudy,Huntley
+9/19/2026 15:30:40,9/14/2026,Monday,9:50:00 AM,10:00:00 AM,10,1,Bus,Sunny,"Little Italy, Chicago"
+9/19/2026 15:30:40,9/15/2026,Tuesday,7:51:00 AM,8:00:00 AM,9,1,Walk,Cloudy,"Little Italy, Chicago"
+9/19/2026 15:30:40,9/16/2026,Wednesday,9:50:00 AM,10:00:00 AM,10,1,Bus,Cloudy,"Little Italy, Chicago"
+9/19/2026 15:30:40,9/17/2026,Thursday,7:49:00 AM,8:00:00 AM,11,1,Walk,Raining,"Little Italy, Chicago"
+9/19/2026 15:30:40,9/18/2026,Friday,9:48:00 AM,10:00:00 AM,12,1,Bus,Cloudy,"Little Italy, Chicago"
+9/19/2026 15:34:49,9/14/2026,Monday,7:46:00 AM,8:00:00 AM,14,0.5,Walk,Cloudy,Little Italy
+9/19/2026 15:34:49,9/15/2026,Tuesday,8:47:00 AM,9:00:00 AM,13,0.5,Walk,Sunny,Little Italy
+9/19/2026 15:34:49,9/16/2026,Wednesday,10:50:00 AM,11:00:00 AM,10,0.5,Walk,Cloudy,Little Italy
+9/19/2026 15:34:49,9/17/2026,Thursday,8:49:00 AM,9:00:00 AM,11,0.5,Walk,Raining,Little Italy
+9/19/2026 15:49:43,9/14/2026,Monday,8:06:00 AM,9:00:00 AM,54,26,Train,Sunny,Plainfield
+9/19/2026 15:53:51,9/14/2026,Monday,8:11:00 AM,9:00:00 AM,49,8,Car,Sunny,Montclare
+9/19/2026 15:53:51,9/15/2026,Tuesday,7:06:00 AM,8:00:00 AM,54,8,Car,Sunny,Montclare
+9/19/2026 15:53:51,9/16/2026,Wednesday,8:10:00 AM,9:00:00 AM,50,8,Car,Sunny,Montclare
+9/19/2026 15:53:51,9/18/2026,Friday,8:09:00 AM,9:00:00 AM,51,8,Car,Sunny,Montclare
+9/19/2026 16:02:31,9/14/2026,Monday,9:13:00 AM,10:00:00 AM,47,13,Car,Sunny,Norwood Park Township
+9/19/2026 16:02:31,9/15/2026,Tuesday,9:16:00 AM,10:00:00 AM,44,13,Car,Raining,Norwood Park Township
+9/19/2026 16:02:31,9/16/2026,Wednesday,8:55:00 AM,10:00:00 AM,65,13,Car,Sunny,Norwood Park Township
+9/19/2026 16:02:31,9/17/2026,Thursday,9:11:00 AM,10:00:00 AM,49,13,Car,Sunny,Norwood Park Township
+9/19/2026 16:02:31,9/18/2026,Friday,6:19:00 AM,7:00:00 AM,41,13,Car,Sunny,Norwood Park Township
+9/19/2026 20:52:47,9/14/2026,Monday,9:32:00 AM,10:00:00 AM,28,3,Bus,Raining,Pilsen
+9/19/2026 20:52:47,9/16/2026,Wednesday,9:42:00 AM,10:00:00 AM,18,3,Bus,Cloudy,Pilsen
+9/22/2026 11:09:57,9/22/2026,Tuesday,6:38:00 AM,8:00:00 AM,82,31,Train,Cloudy,Hanover park
+9/22/2026 11:09:57,9/16/2026,Wednesday,7:47:00 AM,9:00:00 AM,73,31,Carpool,Raining,Hanover park
+9/22/2026 11:09:57,9/17/2026,Thursday,6:36:00 AM,8:00:00 AM,84,31,Train,Raining,Hanover park
+9/22/2026 11:09:57,9/18/2026,Friday,8:44:00 AM,10:00:00 AM,76,31,Car,Cloudy,Hanover park
+9/22/2026 11:16:31,9/21/2026,Monday,11:02:00 AM,12:00:00 PM,58,24,Car,Raining,bloomingdale
+9/22/2026 11:16:31,9/22/2026,Tuesday,10:01:00 AM,11:00:00 AM,59,24,Car,Raining,bloomingdale
+9/22/2026 11:16:31,9/16/2026,Wednesday,11:01:00 AM,12:00:00 PM,59,24,Car,Raining,bloomingdale
+9/22/2026 11:16:31,9/17/2026,Thursday,10:05:00 AM,11:00:00 AM,55,24,Car,Raining,bloomingdale
+9/22/2026 11:16:31,9/18/2026,Friday,11:07:00 AM,12:00:00 PM,53,24,Car,Raining,bloomingdale
+9/22/2026 11:21:12,9/21/2026,Monday,5:59:00 AM,7:00:00 AM,61,0.5,Train,Raining,"Little Italy, Chicago"
+9/22/2026 11:21:12,9/16/2026,Wednesday,10:42:00 AM,11:00:00 AM,18,0.5,Bus,Cloudy,"Little Italy, Chicago"
+9/22/2026 11:21:12,9/17/2026,Thursday,10:42:00 AM,11:00:00 AM,18,0.5,Walk,Raining,"Little Italy, Chicago"
+9/22/2026 11:48:22,9/21/2026,Monday,9:38:00 AM,11:00:00 AM,82,33,Train,Cloudy,Naperville
+9/22/2026 11:48:22,9/22/2026,Tuesday,9:32:00 AM,11:00:00 AM,88,33,Train,Raining,Naperville
+9/22/2026 11:48:22,9/16/2026,Wednesday,9:41:00 AM,11:00:00 AM,79,33,Train,Cloudy,Naperville
+9/22/2026 11:48:22,9/17/2026,Thursday,9:28:00 AM,11:00:00 AM,92,33,Train,Raining,Naperville
+9/22/2026 12:18:17,9/21/2026,Monday,10:39:00 AM,11:00:00 AM,21,3,Bus,Cloudy,little italy
+9/22/2026 12:18:17,9/14/2026,Tuesday,8:48:00 AM,9:00:00 AM,12,3,Walk,Raining,little italy
+9/22/2026 12:18:17,9/16/2026,Wednesday,10:37:00 AM,11:00:00 AM,23,3,Bus,Cloudy,little italy
+9/22/2026 12:18:17,9/17/2026,Thursday,8:50:00 AM,9:00:00 AM,10,3,Walk,Raining,little italy
+9/22/2026 12:18:17,9/18/2026,Friday,10:38:00 AM,11:00:00 AM,22,3,Bus,Cloudy,little italy
+9/22/2026 12:32:41,9/22/2026,Tuesday,10:16:00 AM,11:00:00 AM,44,14,Car,Cloudy,Lincolnwood
+9/22/2026 12:32:41,9/17/2026,Thursday,10:16:00 AM,11:00:00 AM,44,14,Car,Cloudy,Lincolnwood
+9/22/2026 12:47:32,9/21/2026,Monday,7:14:00 AM,8:00:00 AM,46,14,Car,Cloudy,Brookfield
+9/22/2026 12:47:32,9/22/2026,Tuesday,7:07:00 AM,8:00:00 AM,53,14,Car,Cloudy,Brookfield
+9/22/2026 12:47:32,9/16/2026,Wednesday,7:13:00 AM,8:00:00 AM,47,14,Car,Cloudy,Brookfield
+9/22/2026 12:47:32,9/18/2026,Friday,7:09:00 AM,8:00:00 AM,51,14,Car,Cloudy,Brookfield
+9/22/2026 12:50:35,9/21/2026,Monday,8:06:00 AM,9:00:00 AM,54,22,Car,Cloudy,Downers Grove
+9/22/2026 12:50:35,9/22/2026,Tuesday,8:05:00 AM,9:00:00 AM,55,22,Car,Cloudy,Downers Grove
+9/22/2026 12:50:35,9/23/2026,Wednesday,8:05:00 AM,9:00:00 AM,55,22,Car,Cloudy,Downers Grove
+9/22/2026 12:50:35,9/24/2026,Thursday,8:08:00 AM,9:00:00 AM,52,22,Car,Cloudy,Downers Grove
+9/22/2026 12:50:35,9/18/2026,Friday,8:01:00 AM,9:00:00 AM,59,22,Car,Cloudy,Downers Grove
+9/22/2026 13:04:00,9/21/2026,Monday,8:48:00 AM,9:00:00 AM,12,2,Car,Cloudy,near west side
+9/22/2026 13:04:00,9/15/2026,Tuesday,8:49:00 AM,9:00:00 AM,11,2,Car,Sunny,near west side
+9/22/2026 13:04:00,9/16/2026,Wednesday,8:36:00 AM,9:00:00 AM,24,2,Car,Cloudy,near west side
+9/22/2026 13:04:00,9/18/2026,Thursday,8:49:00 AM,9:00:00 AM,11,2,Bicycle,Raining,near west side
+9/22/2026 13:04:00,9/18/2026,Friday,7:46:00 AM,8:00:00 AM,14,2,Car,Raining,near west side
+9/22/2026 13:29:37,9/15/2026,Tuesday,9:49:00 AM,10:00:00 AM,11,2,Bicycle,Cloudy,River North
+9/22/2026 13:29:37,9/16/2026,Wednesday,9:50:00 AM,10:00:00 AM,10,2,Bicycle,Cloudy,River North
+9/22/2026 13:29:37,9/17/2026,Thursday,9:51:00 AM,10:00:00 AM,9,2,Bicycle,Raining,River North
+9/22/2026 13:29:37,9/18/2026,Friday,9:50:00 AM,10:00:00 AM,10,1.5,Bicycle,Raining,River North
+9/22/2026 14:46:38,9/14/2026,Monday,11:40:00 AM,12:00:00 PM,20,1.5,Walk,Cloudy,city - Chicago
+9/22/2026 14:46:38,9/15/2026,Tuesday,11:41:00 AM,12:00:00 PM,19,1.5,Walk,Cloudy,city - Chicago
+9/22/2026 14:46:38,9/16/2026,Wednesday,11:44:00 AM,12:00:00 PM,16,1.5,Walk,Cloudy,city - Chicago
+9/22/2026 14:46:38,9/17/2026,Thursday,8:43:00 AM,9:00:00 AM,17,1.5,Walk,Raining,city - Chicago
+9/22/2026 14:46:38,9/18/2026,Friday,11:42:00 AM,12:00:00 PM,18,1.5,Walk,Sunny,city - Chicago
+9/22/2026 20:21:08,9/14/2026,Monday,5:49:00 AM,7:00:00 AM,71,33,Train,Sunny,Hanover Park
+9/22/2026 20:21:08,9/15/2026,Tuesday,8:48:00 AM,10:00:00 AM,72,33,Train,Sunny,Hanover Park
+9/22/2026 20:21:08,9/16/2026,Wednesday,5:51:00 AM,7:00:00 AM,69,33,Train,Raining,Hanover Park
+9/22/2026 20:21:08,9/17/2026,Thursday,8:46:00 AM,10:00:00 AM,74,33,Train,Sunny,Hanover Park
+9/22/2026 20:21:08,9/18/2026,Friday,6:50:00 AM,8:00:00 AM,70,33,Car,Sunny,Hanover Park
+9/23/2026 12:40:14,9/21/2026,Monday,8:23:00 AM,9:00:00 AM,37,6,Car,Cloudy,Cicero
+9/23/2026 12:40:14,9/15/2026,Tuesday,8:26:00 AM,9:00:00 AM,34,6,Car,Cloudy,Cicero
+9/23/2026 12:40:14,9/16/2026,Wednesday,7:28:00 AM,8:00:00 AM,32,6,Car,Raining,Cicero
+9/23/2026 12:40:14,9/17/2026,Thursday,6:27:00 AM,7:00:00 AM,33,6,Car,Raining,Cicero
+9/23/2026 12:40:14,9/25/2026,Friday,8:22:00 AM,9:00:00 AM,38,6,Car,Raining,Cicero
+9/23/2026 15:00:20,9/14/2026,Monday,8:41:00 AM,9:00:00 AM,19,1,Walk,Raining,little Italy
+9/23/2026 15:00:20,9/15/2026,Tuesday,10:44:00 AM,11:00:00 AM,16,1,Walk,Cloudy,little Italy
+9/23/2026 15:00:20,9/16/2026,Wednesday,9:41:00 AM,10:00:00 AM,19,1,Walk,Cloudy,little Italy
+9/23/2026 15:00:20,9/17/2026,Thursday,9:37:00 AM,10:00:00 AM,23,1,Walk,Cloudy,little Italy
+9/23/2026 15:00:20,9/18/2026,Friday,11:44:00 AM,12:00:00 PM,16,1,Walk,Cloudy,little Italy
+9/23/2026 16:46:02,9/21/2026,Monday,1:48:00 PM,2:00:00 PM,12,0.5,Walk,Cloudy,Taylor and Carpenter
+9/23/2026 16:46:02,9/23/2026,Wednesday,1:48:00 PM,2:00:00 PM,12,0.5,Walk,Cloudy,Taylor and Carpenter
+9/23/2026 16:46:02,9/24/2026,Thursday,1:49:00 PM,2:00:00 PM,11,0.5,Walk,Cloudy,Taylor and Carpenter
+9/24/2026 10:19:21,9/21/2026,Monday,7:24:00 AM,8:00:00 AM,36,15,Car,Cloudy,Rogers Park
+9/24/2026 10:19:21,9/23/2026,Wednesday,7:01:00 AM,8:00:00 AM,59,15,Car,Raining,Rogers Park
+9/26/2026 17:13:42,9/21/2026,Monday,7:59:00 AM,9:00:00 AM,61,22,Car,Cloudy,Lombard
+9/26/2026 17:13:42,9/22/2026,Tuesday,10:17:00 AM,11:00:00 AM,43,22,Car,Cloudy,Lombard
+9/26/2026 17:13:42,9/23/2026,Wednesday,7:58:00 AM,9:00:00 AM,62,22,Car,Raining,Lombard
+9/26/2026 17:13:42,9/24/2026,Thursday,10:24:00 AM,11:00:00 AM,36,22,Car,Sunny,Lombard
+9/26/2026 17:20:57,9/21/2026,Monday,9:42:00 AM,10:00:00 AM,18,2,Car,Cloudy,South Loop
+9/26/2026 17:20:57,9/22/2026,Tuesday,9:44:00 AM,10:00:00 AM,16,2,Bus,Cloudy,South Loop
+9/26/2026 17:20:57,9/23/2026,Wednesday,9:39:00 AM,10:00:00 AM,21,2,Bus,Cloudy,South Loop
+9/26/2026 17:20:57,9/24/2026,Thursday,9:41:00 AM,10:00:00 AM,19,2,Bus,Cloudy,South Loop
+9/26/2026 17:27:48,9/21/2026,Monday,10:31:00 AM,12:00:00 PM,89,43,Train,Cloudy,Algonquin
+9/26/2026 17:27:48,9/22/2026,Tuesday,10:36:00 AM,12:00:00 PM,84,43,Train,Cloudy,Algonquin
+9/26/2026 17:27:48,9/23/2026,Wednesday,10:31:00 AM,12:00:00 PM,89,43,Train,Cloudy,Algonquin
+9/26/2026 17:27:48,9/24/2026,Thursday,10:31:00 AM,12:00:00 PM,89,43,Train,Cloudy,Algonquin
+9/26/2026 17:27:48,9/25/2026,Friday,10:32:00 AM,12:00:00 PM,88,43,Train,Cloudy,Algonquin
+9/26/2026 17:50:03,9/21/2026,Monday,10:01:00 AM,11:00:00 AM,59,25,Train,Sunny,Elmhurst
+9/26/2026 17:50:03,9/22/2026,Tuesday,10:01:00 AM,11:00:00 AM,59,25,Train,Sunny,Elmhurst
+9/26/2026 17:50:03,9/23/2026,Wednesday,10:08:00 AM,11:00:00 AM,52,25,Train,Cloudy,Elmhurst
+9/26/2026 17:50:03,9/24/2026,Thursday,10:06:00 AM,11:00:00 AM,54,25,Train,Sunny,Elmhurst
+9/26/2026 17:51:53,9/21/2026,Monday,6:59:00 AM,8:00:00 AM,61,20,Train,Raining,Des Plaines.
+9/26/2026 17:51:53,9/22/2026,Tuesday,6:55:00 AM,8:00:00 AM,65,20,Train,Cloudy,Des Plaines.
+9/26/2026 17:51:53,9/23/2026,Wednesday,6:59:00 AM,8:00:00 AM,61,20,Train,Cloudy,Des Plaines.
+9/26/2026 17:51:53,9/24/2026,Thursday,6:56:00 AM,8:00:00 AM,64,20,Train,Cloudy,Des Plaines.
+9/26/2026 17:51:53,9/25/2026,Friday,6:54:00 AM,8:00:00 AM,66,20,Train,Sunny,Des Plaines.
+9/30/2026 20:17:46,9/29/2026,Tuesday,8:21:00 AM,9:00:00 AM,39,12,Car,Cloudy,Belmont Cragin
+9/30/2026 20:17:46,10/1/2026,Thursday,8:18:00 AM,9:00:00 AM,42,12,Car,Cloudy,Belmont Cragin
