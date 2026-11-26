@@ -2,12 +2,17 @@ from pathlib import Path
 import sys
 import pandas as pd
 import altair as alt
+import numpy as np
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
+import json 
 
 HERE = Path(__file__).resolve().parent      # .../source-code
 ROOT = HERE.parent                          
 CSV_PATH = ROOT / "data" / "processed" / "commutes_clean.csv"
 COORDS = ROOT / "data" / "lookups" / "location_coords.csv"
 OUT = ROOT / "dashboard.html"
+HIGHWAYS = ROOT / "data" / "lookups" / "highways.geojson"
 
 USE_BASEMAP = True          # False = plain lat/lon dots (no internet needed)
 MAP_W, MAP_H = 460, 400
@@ -16,6 +21,11 @@ MAP_CENTER = [-88.03, 41.87]   # [lon, lat] of the middle of the map
 NEARBY_COUNTIES = [17031, 17043, 17089, 17097, 17111, 17197, 17093, 17037, 17007, 17091, 17063]
 # Cook, DuPage, Kane, Lake, McHenry, Will, Kendall, DeKalb, Boone, Kankakee, Grundy
 UIC = (41.8708, -87.6505)   # destination marker
+OFFSET = 0.05               # degrees (~1.4 mi) of random spread so trips from one origin don't stack
+CLUSTER_COLORS = ["#1b9e77", "#d95f02", "#7570b3", "#e7298a",
+                  "#66a61e", "#e6ab02", "#a6761d", "#666666"]   # Dark2, one per cluster id 0-7
+TRIP_MAP_W, TRIP_MAP_H = 640, 560   # bigger trip-level map so individual dots are easier to hover
+TRIP_MAP_SCALE = 4000              # keeps about the same area in view as MAP_SCALE at the larger size
 
 #load data
 if not CSV_PATH.exists():
@@ -52,10 +62,48 @@ df = df.merge(coords, on="location_clean", how="left")
 #   - return the dataframe with the new columns.
 # =====================================================================
 def add_cluster_columns(df):
+    depart = pd.to_datetime(df["depart_time"], format="%H:%M:%S")
+    X_num = pd.DataFrame({
+        "distance_miles": df["distance_miles"],
+        "duration_minutes": df["duration_minutes"],
+        "depart_hour": depart.dt.hour + depart.dt.minute / 60,
+    })
+    X_cat = pd.get_dummies(df[["weather", "mode_of_transportation", "day_of_week"]], dtype=float)
+    X = StandardScaler().fit_transform(pd.concat([X_num, X_cat], axis=1))
+    for k in range(2, 9):
+        labels = KMeans(n_clusters=k, n_init=10, random_state=0).fit_predict(X)
+        df[f"cluster_k{k}"] = labels.astype(str)
     return df
 
 
+def add_map_offsets(df):
+    # one dot per trip; a seeded random nudge keeps the dots from stacking on one origin
+    rng = np.random.default_rng(0)
+    df["lat_plot"] = df["lat"] + rng.uniform(-OFFSET, OFFSET, len(df))
+    df["lon_plot"] = df["lon"] + rng.uniform(-OFFSET, OFFSET, len(df))
+    return df
+
+
+def build_cluster_summary(df):
+    # one row per (k, cluster) for the cluster panel; precomputed so the page stays static
+    rows = []
+    for k in range(2, 9):
+        for cid, sub in df.groupby(f"cluster_k{k}"):
+            rows.append({
+                "k": k,
+                "cluster": cid,
+                "trips": len(sub),
+                "avg_duration": round(sub["duration_minutes"].mean(), 1),
+                "avg_distance": round(sub["distance_miles"].mean(), 1),
+                "top_mode": sub["mode_of_transportation"].mode().iat[0],
+                "top_weather": sub["weather"].mode().iat[0],
+            })
+    return pd.DataFrame(rows)
+
+
 df = add_cluster_columns(df)
+df = add_map_offsets(df)
+cluster_summary = build_cluster_summary(df)
 df_map = df.dropna(subset=["lat", "lon"])
 
 
@@ -69,11 +117,20 @@ df_map = df.dropna(subset=["lat", "lon"])
 # Show clusters on the map and/or scatter, and add a small table or bars
 # describing each cluster (avg duration, distance, common weather/mode).
 # =====================================================================
-def cluster_panel():
-    t = pd.DataFrame({"t": ["EXTRA CREDIT: K-means cluster panel goes here (see comments in dashboard.py)"]})
-    return (alt.Chart(t).mark_text(size=14, color="gray")
-            .encode(text="t:N", x=alt.value(450), y=alt.value(30))
-            .properties(width=900, height=60))
+def cluster_panel(summary):
+    return (alt.Chart(summary).transform_filter("datum.k == k_pick")
+            .mark_bar()
+            .encode(x=alt.X("cluster:N", title="Cluster", sort=None),
+                    y=alt.Y("avg_duration:Q", title="Avg commute (Minutes)"),
+                    color=alt.Color("cluster:N", legend=None, scale=CLUSTER_SCALE),
+                    tooltip=[alt.Tooltip("cluster:N", title="Cluster"),
+                             alt.Tooltip("trips:Q", title="Trips"),
+                             alt.Tooltip("avg_duration:Q", title="Avg (min)", format=".1f"),
+                             alt.Tooltip("avg_distance:Q", title="Avg distance (mi)", format=".1f"),
+                             alt.Tooltip("top_mode:N", title="Most common mode"),
+                             alt.Tooltip("top_weather:N", title="Most common weather")])
+            .properties(title="Clusters at the chosen k: average commute per cluster",
+                        width=480, height=340))
 
 
 # standardized color, day, weather, and modes
@@ -90,6 +147,9 @@ day_pick = alt.param(name="day_pick", value="All")
 map_select = alt.selection_point(fields=["location_clean"])           # click map (shift = several)
 mode_select = alt.selection_point(fields=["mode_of_transportation"], bind="legend")
 brush = alt.selection_interval(encodings=["x"])                       # drag a distance range
+k_pick = alt.param(name="k_pick", value=4,                            # K-means slider (extra credit)
+                   bind=alt.binding_range(min=2, max=8, step=1, name="Clusters (k): "))
+CLUSTER_SCALE = alt.Scale(domain=[str(i) for i in range(8)], range=CLUSTER_COLORS)  # same color per id at any k
 
 WEATHER_OK = "(weather_pick == 'All' || datum.weather == weather_pick)"
 DAY_OK = "(day_pick == 'All' || datum.day_of_week == day_pick)"
@@ -108,24 +168,55 @@ points = (alt.Chart(df_map).transform_filter(FILTER).transform_filter(mode_selec
                            alt.Tooltip("mean(duration_minutes):Q", title="Avg (min)", format=".1f")])
           .add_params(map_select))
 
+# one dot per trip, colored by the cluster at the chosen k (extra credit); bigger than the origin map so trips are easier to hover
+trip_points = (alt.Chart(df_map).transform_filter(FILTER).transform_filter(mode_select)
+          .transform_calculate(cluster="datum['cluster_k' + k_pick]")
+          .mark_circle(stroke="white", strokeWidth=0.8, size=110)
+          .encode(longitude="lon_plot:Q", latitude="lat_plot:Q",
+                  color=alt.Color("cluster:N", title="Cluster", scale=CLUSTER_SCALE),
+                  tooltip=[alt.Tooltip("location_clean:N", title="Origin"),
+                           alt.Tooltip("day_of_week:N", title="Day"),
+                           alt.Tooltip("weather:N", title="Weather"),
+                           alt.Tooltip("mode_of_transportation:N", title="Mode"),
+                           alt.Tooltip("distance_miles:Q", title="Distance (mi)"),
+                           alt.Tooltip("duration_minutes:Q", title="Duration (min)"),
+                           alt.Tooltip("cluster:N", title="Cluster")])
+          .add_params(k_pick))
+
 uic = (alt.Chart(pd.DataFrame({"lat": [UIC[0]], "lon": [UIC[1]], "name": ["UIC (destination)"]}))
        .mark_point(shape="diamond", size=200, filled=True, color="#111827", stroke="white", strokeWidth=1.5)
        .encode(longitude="lon:Q", latitude="lat:Q", tooltip="name:N"))
 
-layers = [points, uic]
+basemap_layers = []
+with open(HIGHWAYS) as f:
+    highway_features = json.load(f)["features"]
+road_chart = alt.Chart(alt.Data(values=highway_features)).encode(shape="geometry:G")
+minor_roads = (road_chart.transform_filter("datum.properties.kind == 'road'")
+               .mark_geoshape(fill=None, stroke="#cbd5e1", strokeWidth=0.8))
+interstates = (road_chart.transform_filter("datum.properties.kind == 'interstate'")
+               .mark_geoshape(fill=None, stroke="#6b7280", strokeWidth=1.6))
+basemap_layers = basemap_layers + [minor_roads, interstates]
+
 if USE_BASEMAP:
     from vega_datasets import data as vdata
     counties = alt.topo_feature(vdata.us_10m.url, "counties")
     basemap = (alt.Chart(counties)
                .mark_geoshape(fill="#e5e9f0", stroke="white", strokeWidth=1.2, clip=True)
                .transform_filter(f"indexof({NEARBY_COUNTIES}, datum.id) >= 0"))
-    layers = [basemap] + layers
+    basemap_layers = [basemap] + basemap_layers
 
-map_chart = (alt.layer(*layers)
+map_chart = (alt.layer(*basemap_layers, points, uic)
              .project(type="mercator", scale=MAP_SCALE, center=MAP_CENTER,
                       translate=[MAP_W / 2, MAP_H / 2])      # <-- this is the actual fix
              .properties(title="Where trips start (click origins; size = trips, color = avg time)",
                          width=MAP_W, height=MAP_H))
+
+# trip-level map: same basemap and destination, larger so individual trips are easier to hover
+trip_map = (alt.layer(*basemap_layers, trip_points, uic)
+            .project(type="mercator", scale=TRIP_MAP_SCALE, center=MAP_CENTER,
+                     translate=[TRIP_MAP_W / 2, TRIP_MAP_H / 2])
+            .properties(title="Each dot is one trip (color = cluster at the chosen k)",
+                        width=TRIP_MAP_W, height=TRIP_MAP_H))
 
 #distance vs duration scatterplot
 scatter = (alt.Chart(df).transform_filter(FILTER).transform_filter(map_select)
@@ -183,7 +274,7 @@ top = alt.hconcat(map_chart, scatter).resolve_scale(color="independent", size="i
 bottom = alt.hconcat(bars, summary).resolve_scale(color="independent")
 
 dashboard = (
-    alt.vconcat(top, bottom, cluster_panel())
+    alt.vconcat(top, bottom, alt.hconcat(cluster_panel(cluster_summary), trip_map))
     .resolve_scale(color="independent", size="independent")
     .configure(background="#ffffff")
     .configure_view(stroke=None)
@@ -222,7 +313,7 @@ HTML = f"""<!DOCTYPE html>
 <body>
 <div class="card">
   <h1>What shapes a commute to campus?</h1>
-  <p class="sub">Pick a weather or day, click map origins, drag a distance range on the scatter, or click the legend to isolate a mode.</p>
+  <p class="sub">Pick a weather or day, click map origins, drag a distance range on the scatter, or click the legend to isolate a mode. Use the cluster slider to color trips on the map.</p>
   <div class="filters">
     <label>Weather <select id="weather">{options_html(weathers)}</select></label>
     <label>Day <select id="day">{options_html(days_order)}</select></label>
